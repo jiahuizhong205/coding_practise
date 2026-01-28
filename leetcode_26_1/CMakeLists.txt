@@ -1,0 +1,2 @@
+add_executable(746_minCostClimbingStairs 746_minCostClimbingStairs.cpp)
+add_executable(3693_climbStairs 3693_climbStairs.cpp)
