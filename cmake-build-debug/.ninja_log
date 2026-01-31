@@ -1,3 +1,5 @@
 # ninja log v6
-8	548	7913020262767214	leetcode_26_1/CMakeFiles/746_minCostClimbingStairs.dir/746_minCostClimbingStairs.cpp.obj	7b52773a833fd43e
-548	754	7913020268175656	leetcode_26_1/746_minCostClimbingStairs.exe	b7ab5df927a893f
+12	5307	7915523403147423	leetcode_26_1/CMakeFiles/746_minCostClimbingStairs.dir/746_minCostClimbingStairs.cpp.obj	7b52773a833fd43e
+5307	8433	7915523456097205	leetcode_26_1/746_minCostClimbingStairs.exe	b7ab5df927a893f
+3	732	7915554900761788	leetcode_26_1/CMakeFiles/744_nextGreatestLetter.dir/744_nextGreatestLetter.cpp.obj	54520316bf92e9f0
+733	962	7915554908061791	leetcode_26_1/744_nextGreatestLetter.exe	dc19f1100e0c2eba

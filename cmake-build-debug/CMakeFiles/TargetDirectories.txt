@@ -3,5 +3,7 @@ D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/CMakeFiles/edit_cache.di
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_1/CMakeFiles/746_minCostClimbingStairs.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_1/CMakeFiles/3693_climbStairs.dir
+D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_1/CMakeFiles/2976_minimumCost.dir
+D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_1/CMakeFiles/744_nextGreatestLetter.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_1/CMakeFiles/edit_cache.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_1/CMakeFiles/rebuild_cache.dir

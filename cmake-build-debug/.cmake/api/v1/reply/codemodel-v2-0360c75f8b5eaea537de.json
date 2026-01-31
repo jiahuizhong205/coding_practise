@@ -19,7 +19,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						2
+						4
 					]
 				},
 				{
@@ -35,7 +35,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -53,7 +55,9 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -61,9 +65,23 @@
 			[
 				{
 					"directoryIndex" : 1,
+					"id" : "2976_minimumCost::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-2976_minimumCost-Debug-60779826cf76b7f57629.json",
+					"name" : "2976_minimumCost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
 					"id" : "3693_climbStairs::@9e211cf3ccb46378cd58",
 					"jsonFile" : "target-3693_climbStairs-Debug-3da300c9a9a81b6b47b1.json",
 					"name" : "3693_climbStairs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "744_nextGreatestLetter::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-744_nextGreatestLetter-Debug-c1cc635c7da8ba04012d.json",
+					"name" : "744_nextGreatestLetter",
 					"projectIndex" : 0
 				},
 				{

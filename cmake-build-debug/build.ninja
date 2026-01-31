@@ -167,6 +167,72 @@ build leetcode_26_1/3693_climbStairs.exe: CXX_EXECUTABLE_LINKER__3693_climbStair
   TARGET_IMPLIB = leetcode_26_1\lib3693_climbStairs.dll.a
   TARGET_PDB = 3693_climbStairs.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2976_minimumCost
+
+
+#############################################
+# Order-only phony target for 2976_minimumCost
+
+build cmake_object_order_depends_target_2976_minimumCost: phony || .
+
+build leetcode_26_1/CMakeFiles/2976_minimumCost.dir/2976_minimumCost.cpp.obj: CXX_COMPILER__2976_minimumCost_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_1/2976_minimumCost.cpp || cmake_object_order_depends_target_2976_minimumCost
+  DEP_FILE = leetcode_26_1\CMakeFiles\2976_minimumCost.dir\2976_minimumCost.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_1\CMakeFiles\2976_minimumCost.dir
+  OBJECT_FILE_DIR = leetcode_26_1\CMakeFiles\2976_minimumCost.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2976_minimumCost
+
+
+#############################################
+# Link the executable leetcode_26_1\2976_minimumCost.exe
+
+build leetcode_26_1/2976_minimumCost.exe: CXX_EXECUTABLE_LINKER__2976_minimumCost_Debug leetcode_26_1/CMakeFiles/2976_minimumCost.dir/2976_minimumCost.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_1\CMakeFiles\2976_minimumCost.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_1\2976_minimumCost.exe
+  TARGET_IMPLIB = leetcode_26_1\lib2976_minimumCost.dll.a
+  TARGET_PDB = 2976_minimumCost.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 744_nextGreatestLetter
+
+
+#############################################
+# Order-only phony target for 744_nextGreatestLetter
+
+build cmake_object_order_depends_target_744_nextGreatestLetter: phony || .
+
+build leetcode_26_1/CMakeFiles/744_nextGreatestLetter.dir/744_nextGreatestLetter.cpp.obj: CXX_COMPILER__744_nextGreatestLetter_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_1/744_nextGreatestLetter.cpp || cmake_object_order_depends_target_744_nextGreatestLetter
+  DEP_FILE = leetcode_26_1\CMakeFiles\744_nextGreatestLetter.dir\744_nextGreatestLetter.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_1\CMakeFiles\744_nextGreatestLetter.dir
+  OBJECT_FILE_DIR = leetcode_26_1\CMakeFiles\744_nextGreatestLetter.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 744_nextGreatestLetter
+
+
+#############################################
+# Link the executable leetcode_26_1\744_nextGreatestLetter.exe
+
+build leetcode_26_1/744_nextGreatestLetter.exe: CXX_EXECUTABLE_LINKER__744_nextGreatestLetter_Debug leetcode_26_1/CMakeFiles/744_nextGreatestLetter.dir/744_nextGreatestLetter.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_1\CMakeFiles\744_nextGreatestLetter.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_1\744_nextGreatestLetter.exe
+  TARGET_IMPLIB = leetcode_26_1\lib744_nextGreatestLetter.dll.a
+  TARGET_PDB = 744_nextGreatestLetter.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -193,9 +259,17 @@ build leetcode_26_1/rebuild_cache: phony leetcode_26_1/CMakeFiles/rebuild_cache.
 # =============================================================================
 # Target aliases.
 
+build 2976_minimumCost: phony leetcode_26_1/2976_minimumCost.exe
+
+build 2976_minimumCost.exe: phony leetcode_26_1/2976_minimumCost.exe
+
 build 3693_climbStairs: phony leetcode_26_1/3693_climbStairs.exe
 
 build 3693_climbStairs.exe: phony leetcode_26_1/3693_climbStairs.exe
+
+build 744_nextGreatestLetter: phony leetcode_26_1/744_nextGreatestLetter.exe
+
+build 744_nextGreatestLetter.exe: phony leetcode_26_1/744_nextGreatestLetter.exe
 
 build 746_minCostClimbingStairs: phony leetcode_26_1/746_minCostClimbingStairs.exe
 
@@ -218,7 +292,7 @@ build all: phony leetcode_luogu_coding_practise.exe leetcode_26_1/all
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_1
 
-build leetcode_26_1/all: phony leetcode_26_1/746_minCostClimbingStairs.exe leetcode_26_1/3693_climbStairs.exe
+build leetcode_26_1/all: phony leetcode_26_1/746_minCostClimbingStairs.exe leetcode_26_1/3693_climbStairs.exe leetcode_26_1/2976_minimumCost.exe leetcode_26_1/744_nextGreatestLetter.exe
 
 # =============================================================================
 # Built-in targets
