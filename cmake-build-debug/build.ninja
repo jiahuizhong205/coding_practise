@@ -233,6 +233,105 @@ build leetcode_26_1/744_nextGreatestLetter.exe: CXX_EXECUTABLE_LINKER__744_nextG
   TARGET_IMPLIB = leetcode_26_1\lib744_nextGreatestLetter.dll.a
   TARGET_PDB = 744_nextGreatestLetter.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 34_searchRange
+
+
+#############################################
+# Order-only phony target for 34_searchRange
+
+build cmake_object_order_depends_target_34_searchRange: phony || .
+
+build leetcode_26_1/CMakeFiles/34_searchRange.dir/34_searchRange.cpp.obj: CXX_COMPILER__34_searchRange_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_1/34_searchRange.cpp || cmake_object_order_depends_target_34_searchRange
+  DEP_FILE = leetcode_26_1\CMakeFiles\34_searchRange.dir\34_searchRange.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_1\CMakeFiles\34_searchRange.dir
+  OBJECT_FILE_DIR = leetcode_26_1\CMakeFiles\34_searchRange.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 34_searchRange
+
+
+#############################################
+# Link the executable leetcode_26_1\34_searchRange.exe
+
+build leetcode_26_1/34_searchRange.exe: CXX_EXECUTABLE_LINKER__34_searchRange_Debug leetcode_26_1/CMakeFiles/34_searchRange.dir/34_searchRange.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_1\CMakeFiles\34_searchRange.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_1\34_searchRange.exe
+  TARGET_IMPLIB = leetcode_26_1\lib34_searchRange.dll.a
+  TARGET_PDB = 34_searchRange.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 35_searchInsert
+
+
+#############################################
+# Order-only phony target for 35_searchInsert
+
+build cmake_object_order_depends_target_35_searchInsert: phony || .
+
+build leetcode_26_1/CMakeFiles/35_searchInsert.dir/35_searchInsert.cpp.obj: CXX_COMPILER__35_searchInsert_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_1/35_searchInsert.cpp || cmake_object_order_depends_target_35_searchInsert
+  DEP_FILE = leetcode_26_1\CMakeFiles\35_searchInsert.dir\35_searchInsert.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_1\CMakeFiles\35_searchInsert.dir
+  OBJECT_FILE_DIR = leetcode_26_1\CMakeFiles\35_searchInsert.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 35_searchInsert
+
+
+#############################################
+# Link the executable leetcode_26_1\35_searchInsert.exe
+
+build leetcode_26_1/35_searchInsert.exe: CXX_EXECUTABLE_LINKER__35_searchInsert_Debug leetcode_26_1/CMakeFiles/35_searchInsert.dir/35_searchInsert.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_1\CMakeFiles\35_searchInsert.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_1\35_searchInsert.exe
+  TARGET_IMPLIB = leetcode_26_1\lib35_searchInsert.dll.a
+  TARGET_PDB = 35_searchInsert.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2529_maximumCount
+
+
+#############################################
+# Order-only phony target for 2529_maximumCount
+
+build cmake_object_order_depends_target_2529_maximumCount: phony || .
+
+build leetcode_26_1/CMakeFiles/2529_maximumCount.dir/2529_maximumCount.cpp.obj: CXX_COMPILER__2529_maximumCount_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_1/2529_maximumCount.cpp || cmake_object_order_depends_target_2529_maximumCount
+  DEP_FILE = leetcode_26_1\CMakeFiles\2529_maximumCount.dir\2529_maximumCount.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_1\CMakeFiles\2529_maximumCount.dir
+  OBJECT_FILE_DIR = leetcode_26_1\CMakeFiles\2529_maximumCount.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2529_maximumCount
+
+
+#############################################
+# Link the executable leetcode_26_1\2529_maximumCount.exe
+
+build leetcode_26_1/2529_maximumCount.exe: CXX_EXECUTABLE_LINKER__2529_maximumCount_Debug leetcode_26_1/CMakeFiles/2529_maximumCount.dir/2529_maximumCount.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_1\CMakeFiles\2529_maximumCount.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_1\2529_maximumCount.exe
+  TARGET_IMPLIB = leetcode_26_1\lib2529_maximumCount.dll.a
+  TARGET_PDB = 2529_maximumCount.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -259,9 +358,21 @@ build leetcode_26_1/rebuild_cache: phony leetcode_26_1/CMakeFiles/rebuild_cache.
 # =============================================================================
 # Target aliases.
 
+build 2529_maximumCount: phony leetcode_26_1/2529_maximumCount.exe
+
+build 2529_maximumCount.exe: phony leetcode_26_1/2529_maximumCount.exe
+
 build 2976_minimumCost: phony leetcode_26_1/2976_minimumCost.exe
 
 build 2976_minimumCost.exe: phony leetcode_26_1/2976_minimumCost.exe
+
+build 34_searchRange: phony leetcode_26_1/34_searchRange.exe
+
+build 34_searchRange.exe: phony leetcode_26_1/34_searchRange.exe
+
+build 35_searchInsert: phony leetcode_26_1/35_searchInsert.exe
+
+build 35_searchInsert.exe: phony leetcode_26_1/35_searchInsert.exe
 
 build 3693_climbStairs: phony leetcode_26_1/3693_climbStairs.exe
 
@@ -292,7 +403,7 @@ build all: phony leetcode_luogu_coding_practise.exe leetcode_26_1/all
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_1
 
-build leetcode_26_1/all: phony leetcode_26_1/746_minCostClimbingStairs.exe leetcode_26_1/3693_climbStairs.exe leetcode_26_1/2976_minimumCost.exe leetcode_26_1/744_nextGreatestLetter.exe
+build leetcode_26_1/all: phony leetcode_26_1/746_minCostClimbingStairs.exe leetcode_26_1/3693_climbStairs.exe leetcode_26_1/2976_minimumCost.exe leetcode_26_1/744_nextGreatestLetter.exe leetcode_26_1/34_searchRange.exe leetcode_26_1/35_searchInsert.exe leetcode_26_1/2529_maximumCount.exe
 
 # =============================================================================
 # Built-in targets

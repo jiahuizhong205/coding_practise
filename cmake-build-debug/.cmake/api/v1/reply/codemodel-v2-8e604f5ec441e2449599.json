@@ -19,7 +19,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						4
+						7
 					]
 				},
 				{
@@ -37,7 +37,10 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5,
+						6
 					]
 				}
 			],
@@ -57,7 +60,10 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -65,9 +71,30 @@
 			[
 				{
 					"directoryIndex" : 1,
+					"id" : "2529_maximumCount::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-2529_maximumCount-Debug-1475b786c9a8e100d3d5.json",
+					"name" : "2529_maximumCount",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
 					"id" : "2976_minimumCost::@9e211cf3ccb46378cd58",
 					"jsonFile" : "target-2976_minimumCost-Debug-60779826cf76b7f57629.json",
 					"name" : "2976_minimumCost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "34_searchRange::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-34_searchRange-Debug-4bf2e21f89d18163964f.json",
+					"name" : "34_searchRange",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "35_searchInsert::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-35_searchInsert-Debug-bd20a752fffce567ad68.json",
+					"name" : "35_searchInsert",
 					"projectIndex" : 0
 				},
 				{
