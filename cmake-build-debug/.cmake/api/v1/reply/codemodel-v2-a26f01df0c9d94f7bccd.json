@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -19,7 +20,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						7
+						9
 					]
 				},
 				{
@@ -34,13 +35,29 @@
 					"source" : "leetcode_26_1",
 					"targetIndexes" : 
 					[
-						0,
-						1,
 						2,
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "leetcode_26_2",
+					"jsonFile" : "directory-leetcode_26_2-Debug-9922ea829d4e7c363243.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "leetcode_26_2",
+					"targetIndexes" : 
+					[
+						0,
+						1
 					]
 				}
 			],
@@ -51,7 +68,8 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "leetcode_luogu_coding_practise",
 					"targetIndexes" : 
@@ -63,12 +81,28 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 2,
+					"id" : "1385_findTheDistanceValue::@e23729d9319596f10450",
+					"jsonFile" : "target-1385_findTheDistanceValue-Debug-6ab4da505cc014166f3a.json",
+					"name" : "1385_findTheDistanceValue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "1653_minimumDeletions::@e23729d9319596f10450",
+					"jsonFile" : "target-1653_minimumDeletions-Debug-6c83f7d3b5df76f29ae8.json",
+					"name" : "1653_minimumDeletions",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 1,
 					"id" : "2529_maximumCount::@9e211cf3ccb46378cd58",

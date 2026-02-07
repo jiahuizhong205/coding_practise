@@ -356,7 +356,109 @@ build leetcode_26_1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build leetcode_26_1/rebuild_cache: phony leetcode_26_1/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl/leetcode_luogu_coding_practise/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1385_findTheDistanceValue
+
+
+#############################################
+# Order-only phony target for 1385_findTheDistanceValue
+
+build cmake_object_order_depends_target_1385_findTheDistanceValue: phony || .
+
+build leetcode_26_2/CMakeFiles/1385_findTheDistanceValue.dir/1385_findTheDistanceValue.cpp.obj: CXX_COMPILER__1385_findTheDistanceValue_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_2/1385_findTheDistanceValue.cpp || cmake_object_order_depends_target_1385_findTheDistanceValue
+  DEP_FILE = leetcode_26_2\CMakeFiles\1385_findTheDistanceValue.dir\1385_findTheDistanceValue.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_2\CMakeFiles\1385_findTheDistanceValue.dir
+  OBJECT_FILE_DIR = leetcode_26_2\CMakeFiles\1385_findTheDistanceValue.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1385_findTheDistanceValue
+
+
+#############################################
+# Link the executable leetcode_26_2\1385_findTheDistanceValue.exe
+
+build leetcode_26_2/1385_findTheDistanceValue.exe: CXX_EXECUTABLE_LINKER__1385_findTheDistanceValue_Debug leetcode_26_2/CMakeFiles/1385_findTheDistanceValue.dir/1385_findTheDistanceValue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_2\CMakeFiles\1385_findTheDistanceValue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_2\1385_findTheDistanceValue.exe
+  TARGET_IMPLIB = leetcode_26_2\lib1385_findTheDistanceValue.dll.a
+  TARGET_PDB = 1385_findTheDistanceValue.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1653_minimumDeletions
+
+
+#############################################
+# Order-only phony target for 1653_minimumDeletions
+
+build cmake_object_order_depends_target_1653_minimumDeletions: phony || .
+
+build leetcode_26_2/CMakeFiles/1653_minimumDeletions.dir/1653_minimumDeletions.cpp.obj: CXX_COMPILER__1653_minimumDeletions_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_2/1653_minimumDeletions.cpp || cmake_object_order_depends_target_1653_minimumDeletions
+  DEP_FILE = leetcode_26_2\CMakeFiles\1653_minimumDeletions.dir\1653_minimumDeletions.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_2\CMakeFiles\1653_minimumDeletions.dir
+  OBJECT_FILE_DIR = leetcode_26_2\CMakeFiles\1653_minimumDeletions.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1653_minimumDeletions
+
+
+#############################################
+# Link the executable leetcode_26_2\1653_minimumDeletions.exe
+
+build leetcode_26_2/1653_minimumDeletions.exe: CXX_EXECUTABLE_LINKER__1653_minimumDeletions_Debug leetcode_26_2/CMakeFiles/1653_minimumDeletions.dir/1653_minimumDeletions.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_2\CMakeFiles\1653_minimumDeletions.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_2\1653_minimumDeletions.exe
+  TARGET_IMPLIB = leetcode_26_2\lib1653_minimumDeletions.dll.a
+  TARGET_PDB = 1653_minimumDeletions.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build leetcode_26_2/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\leetcode_luogu_coding_practise\cmake-build-debug\leetcode_26_2 && C:\Users\zhongjiahui\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build leetcode_26_2/edit_cache: phony leetcode_26_2/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build leetcode_26_2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\leetcode_luogu_coding_practise\cmake-build-debug\leetcode_26_2 && C:\Users\zhongjiahui\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\cpl\leetcode_luogu_coding_practise -BD:\cpl\leetcode_luogu_coding_practise\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build leetcode_26_2/rebuild_cache: phony leetcode_26_2/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build 1385_findTheDistanceValue: phony leetcode_26_2/1385_findTheDistanceValue.exe
+
+build 1385_findTheDistanceValue.exe: phony leetcode_26_2/1385_findTheDistanceValue.exe
+
+build 1653_minimumDeletions: phony leetcode_26_2/1653_minimumDeletions.exe
+
+build 1653_minimumDeletions.exe: phony leetcode_26_2/1653_minimumDeletions.exe
 
 build 2529_maximumCount: phony leetcode_26_1/2529_maximumCount.exe
 
@@ -396,7 +498,7 @@ build leetcode_luogu_coding_practise: phony leetcode_luogu_coding_practise.exe
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug
 
-build all: phony leetcode_luogu_coding_practise.exe leetcode_26_1/all
+build all: phony leetcode_luogu_coding_practise.exe leetcode_26_1/all leetcode_26_2/all
 
 # =============================================================================
 
@@ -406,20 +508,27 @@ build all: phony leetcode_luogu_coding_practise.exe leetcode_26_1/all
 build leetcode_26_1/all: phony leetcode_26_1/746_minCostClimbingStairs.exe leetcode_26_1/3693_climbStairs.exe leetcode_26_1/2976_minimumCost.exe leetcode_26_1/744_nextGreatestLetter.exe leetcode_26_1/34_searchRange.exe leetcode_26_1/35_searchInsert.exe leetcode_26_1/2529_maximumCount.exe
 
 # =============================================================================
+
+#############################################
+# Folder: D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2
+
+build leetcode_26_2/all: phony leetcode_26_2/1385_findTheDistanceValue.exe leetcode_26_2/1653_minimumDeletions.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/leetcode_luogu_coding_practise/CMakeLists.txt D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_1/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/leetcode_luogu_coding_practise/CMakeLists.txt D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_1/CMakeLists.txt D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_2/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/leetcode_luogu_coding_practise/CMakeLists.txt D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_1/CMakeLists.txt: phony
+build C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/zhongjiahui/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/leetcode_luogu_coding_practise/CMakeLists.txt D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_1/CMakeLists.txt D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_2/CMakeLists.txt: phony
 
 
 #############################################
