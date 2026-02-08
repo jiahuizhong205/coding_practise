@@ -23,23 +23,51 @@
 using namespace std;
 class Solution {
 public:
+    // 方法一前后缀
+    // int minimumDeletions(string s) {
+    //     int a_num = 0;
+    //     for(int i=0;i<s.size();i++) {
+    //         if(s[i]=='a')a_num++;
+    //     }
+    //     int res = a_num;
+    //     int b_num = 0;
+    //     for (int i = 0;i<s.size();i++) {
+    //         if(s[i]=='a') {
+    //             a_num--;
+    //         }else {
+    //             b_num++;
+    //         }
+    //         res = min(res,a_num + b_num);
+    //     }
+    //     return res;
+    // }
+
+    //方法二dp
+//     考虑 s 的最后一个字母：
+//
+// 如果它是 ‘b’，则无需删除，问题规模缩小，变成「使 s 的前 n−1 个字母平衡的最少删除次数」。
+// 如果它是 ‘a’：
+// 删除它，则答案为「使 s 的前 n−1 个字母平衡的最少删除次数」加上 1。
+// 保留它，那么前面的所有 ‘b’ 都要删除；
+// 设 cntB 为前 i 个字母中 ‘b’ 的个数。定义 f[i] 表示使 s 的前 i 个字母平衡的最少删除次数：
+//
+// 如果第 i 个字母是 ‘b’，则 f[i]=f[i−1]；
+// 如果第 i 个字母是 ‘a’，则 f[i]=min(f[i−1]+1,cntB)。
+//
+//
+// 作者：灵茶山艾府
+// 链接：https://leetcode.cn/problems/minimum-deletions-to-make-string-balanced/solutions/2149746/qian-hou-zhui-fen-jie-yi-zhang-tu-miao-d-dor2/
     int minimumDeletions(string s) {
-        int res = INT_MAX;
-        for(int i=0;i<s.size();i++) {
-            int temp =0;
-            int l =0,r = s.size()-1;
-            for(int j = i;j<=r;j++) {
-                if (s[j]=='a')temp++;
+        int bCount = 0;
+        int f = 0;
+        for (char c : s) {
+            if (c == 'b') {
+                ++bCount;
             }
-            for(int j=0;j<i;j++) {
-                if(s[j]=='b')temp++;
+            else {
+                f = min(f + 1, bCount);
             }
-            res = min(res,temp);
         }
-        int b_num = 0;
-        for(int i=0;i<s.size();i++) {
-            if(s[i]=='b')b_num++;
-        }
-        return min(res,b_num);
+        return f;
     }
 };

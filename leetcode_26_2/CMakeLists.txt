@@ -1,2 +1,3 @@
 add_executable(1385_findTheDistanceValue 1385_findTheDistanceValue.cpp)
 add_executable(1653_minimumDeletions 1653_minimumDeletions.cpp)
+add_executable(110_isBalanced 110_isBalanced.cpp)
