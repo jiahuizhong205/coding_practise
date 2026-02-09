@@ -13,5 +13,6 @@ D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_1/CMakeFiles
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2/CMakeFiles/1385_findTheDistanceValue.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2/CMakeFiles/1653_minimumDeletions.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2/CMakeFiles/110_isBalanced.dir
+D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2/CMakeFiles/1382_balanceBST.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2/CMakeFiles/edit_cache.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2/CMakeFiles/rebuild_cache.dir
