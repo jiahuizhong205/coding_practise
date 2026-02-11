@@ -1,0 +1,203 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "leetcode_26_1",
+					"jsonFile" : "directory-leetcode_26_1-Debug-b21901234bca2a0ee031.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "leetcode_26_1",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "leetcode_26_2",
+					"jsonFile" : "directory-leetcode_26_2-Debug-9922ea829d4e7c363243.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "leetcode_26_2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "leetcode_luogu_coding_practise",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "110_isBalanced::@e23729d9319596f10450",
+					"jsonFile" : "target-110_isBalanced-Debug-32d3434d3f5c94279f31.json",
+					"name" : "110_isBalanced",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "1382_balanceBST::@e23729d9319596f10450",
+					"jsonFile" : "target-1382_balanceBST-Debug-03ae02494db63d52d541.json",
+					"name" : "1382_balanceBST",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "1385_findTheDistanceValue::@e23729d9319596f10450",
+					"jsonFile" : "target-1385_findTheDistanceValue-Debug-6ab4da505cc014166f3a.json",
+					"name" : "1385_findTheDistanceValue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "1653_minimumDeletions::@e23729d9319596f10450",
+					"jsonFile" : "target-1653_minimumDeletions-Debug-6c83f7d3b5df76f29ae8.json",
+					"name" : "1653_minimumDeletions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "2389_answerQueries::@e23729d9319596f10450",
+					"jsonFile" : "target-2389_answerQueries-Debug-be631aedbae2f53028a4.json",
+					"name" : "2389_answerQueries",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "2529_maximumCount::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-2529_maximumCount-Debug-1475b786c9a8e100d3d5.json",
+					"name" : "2529_maximumCount",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "2976_minimumCost::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-2976_minimumCost-Debug-60779826cf76b7f57629.json",
+					"name" : "2976_minimumCost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "34_searchRange::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-34_searchRange-Debug-4bf2e21f89d18163964f.json",
+					"name" : "34_searchRange",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "35_searchInsert::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-35_searchInsert-Debug-bd20a752fffce567ad68.json",
+					"name" : "35_searchInsert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "3693_climbStairs::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-3693_climbStairs-Debug-3da300c9a9a81b6b47b1.json",
+					"name" : "3693_climbStairs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "744_nextGreatestLetter::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-744_nextGreatestLetter-Debug-c1cc635c7da8ba04012d.json",
+					"name" : "744_nextGreatestLetter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "746_minCostClimbingStairs::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-746_minCostClimbingStairs-Debug-de436f05e618899d1dd4.json",
+					"name" : "746_minCostClimbingStairs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode_luogu_coding_practise::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode_luogu_coding_practise-Debug-4bc10fec5302881de353.json",
+					"name" : "leetcode_luogu_coding_practise",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug",
+		"source" : "D:/cpl/leetcode_luogu_coding_practise"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
