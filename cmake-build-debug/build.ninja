@@ -492,6 +492,39 @@ build leetcode_26_2/1382_balanceBST.exe: CXX_EXECUTABLE_LINKER__1382_balanceBST_
   TARGET_IMPLIB = leetcode_26_2\lib1382_balanceBST.dll.a
   TARGET_PDB = 1382_balanceBST.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2389_answerQueries
+
+
+#############################################
+# Order-only phony target for 2389_answerQueries
+
+build cmake_object_order_depends_target_2389_answerQueries: phony || .
+
+build leetcode_26_2/CMakeFiles/2389_answerQueries.dir/2389_answerQueries.cpp.obj: CXX_COMPILER__2389_answerQueries_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_2/2389_answerQueries.cpp || cmake_object_order_depends_target_2389_answerQueries
+  DEP_FILE = leetcode_26_2\CMakeFiles\2389_answerQueries.dir\2389_answerQueries.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_2\CMakeFiles\2389_answerQueries.dir
+  OBJECT_FILE_DIR = leetcode_26_2\CMakeFiles\2389_answerQueries.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2389_answerQueries
+
+
+#############################################
+# Link the executable leetcode_26_2\2389_answerQueries.exe
+
+build leetcode_26_2/2389_answerQueries.exe: CXX_EXECUTABLE_LINKER__2389_answerQueries_Debug leetcode_26_2/CMakeFiles/2389_answerQueries.dir/2389_answerQueries.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_2\CMakeFiles\2389_answerQueries.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_2\2389_answerQueries.exe
+  TARGET_IMPLIB = leetcode_26_2\lib2389_answerQueries.dll.a
+  TARGET_PDB = 2389_answerQueries.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -533,6 +566,10 @@ build 1385_findTheDistanceValue.exe: phony leetcode_26_2/1385_findTheDistanceVal
 build 1653_minimumDeletions: phony leetcode_26_2/1653_minimumDeletions.exe
 
 build 1653_minimumDeletions.exe: phony leetcode_26_2/1653_minimumDeletions.exe
+
+build 2389_answerQueries: phony leetcode_26_2/2389_answerQueries.exe
+
+build 2389_answerQueries.exe: phony leetcode_26_2/2389_answerQueries.exe
 
 build 2529_maximumCount: phony leetcode_26_1/2529_maximumCount.exe
 
@@ -586,7 +623,7 @@ build leetcode_26_1/all: phony leetcode_26_1/746_minCostClimbingStairs.exe leetc
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2
 
-build leetcode_26_2/all: phony leetcode_26_2/1385_findTheDistanceValue.exe leetcode_26_2/1653_minimumDeletions.exe leetcode_26_2/110_isBalanced.exe leetcode_26_2/1382_balanceBST.exe
+build leetcode_26_2/all: phony leetcode_26_2/1385_findTheDistanceValue.exe leetcode_26_2/1653_minimumDeletions.exe leetcode_26_2/110_isBalanced.exe leetcode_26_2/1382_balanceBST.exe leetcode_26_2/2389_answerQueries.exe
 
 # =============================================================================
 # Built-in targets
