@@ -15,5 +15,6 @@ D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2/CMakeFiles
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2/CMakeFiles/110_isBalanced.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2/CMakeFiles/1382_balanceBST.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2/CMakeFiles/2389_answerQueries.dir
+D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2/CMakeFiles/3713_longestBalanced.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2/CMakeFiles/edit_cache.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2/CMakeFiles/rebuild_cache.dir

@@ -525,6 +525,39 @@ build leetcode_26_2/2389_answerQueries.exe: CXX_EXECUTABLE_LINKER__2389_answerQu
   TARGET_IMPLIB = leetcode_26_2\lib2389_answerQueries.dll.a
   TARGET_PDB = 2389_answerQueries.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3713_longestBalanced
+
+
+#############################################
+# Order-only phony target for 3713_longestBalanced
+
+build cmake_object_order_depends_target_3713_longestBalanced: phony || .
+
+build leetcode_26_2/CMakeFiles/3713_longestBalanced.dir/3713_longestBalanced.cpp.obj: CXX_COMPILER__3713_longestBalanced_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_2/3713_longestBalanced.cpp || cmake_object_order_depends_target_3713_longestBalanced
+  DEP_FILE = leetcode_26_2\CMakeFiles\3713_longestBalanced.dir\3713_longestBalanced.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_2\CMakeFiles\3713_longestBalanced.dir
+  OBJECT_FILE_DIR = leetcode_26_2\CMakeFiles\3713_longestBalanced.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3713_longestBalanced
+
+
+#############################################
+# Link the executable leetcode_26_2\3713_longestBalanced.exe
+
+build leetcode_26_2/3713_longestBalanced.exe: CXX_EXECUTABLE_LINKER__3713_longestBalanced_Debug leetcode_26_2/CMakeFiles/3713_longestBalanced.dir/3713_longestBalanced.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_2\CMakeFiles\3713_longestBalanced.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_2\3713_longestBalanced.exe
+  TARGET_IMPLIB = leetcode_26_2\lib3713_longestBalanced.dll.a
+  TARGET_PDB = 3713_longestBalanced.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -591,6 +624,10 @@ build 3693_climbStairs: phony leetcode_26_1/3693_climbStairs.exe
 
 build 3693_climbStairs.exe: phony leetcode_26_1/3693_climbStairs.exe
 
+build 3713_longestBalanced: phony leetcode_26_2/3713_longestBalanced.exe
+
+build 3713_longestBalanced.exe: phony leetcode_26_2/3713_longestBalanced.exe
+
 build 744_nextGreatestLetter: phony leetcode_26_1/744_nextGreatestLetter.exe
 
 build 744_nextGreatestLetter.exe: phony leetcode_26_1/744_nextGreatestLetter.exe
@@ -623,7 +660,7 @@ build leetcode_26_1/all: phony leetcode_26_1/746_minCostClimbingStairs.exe leetc
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2
 
-build leetcode_26_2/all: phony leetcode_26_2/1385_findTheDistanceValue.exe leetcode_26_2/1653_minimumDeletions.exe leetcode_26_2/110_isBalanced.exe leetcode_26_2/1382_balanceBST.exe leetcode_26_2/2389_answerQueries.exe
+build leetcode_26_2/all: phony leetcode_26_2/1385_findTheDistanceValue.exe leetcode_26_2/1653_minimumDeletions.exe leetcode_26_2/110_isBalanced.exe leetcode_26_2/1382_balanceBST.exe leetcode_26_2/2389_answerQueries.exe leetcode_26_2/3713_longestBalanced.exe
 
 # =============================================================================
 # Built-in targets
