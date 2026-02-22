@@ -558,6 +558,39 @@ build leetcode_26_2/3713_longestBalanced.exe: CXX_EXECUTABLE_LINKER__3713_longes
   TARGET_IMPLIB = leetcode_26_2\lib3713_longestBalanced.dll.a
   TARGET_PDB = 3713_longestBalanced.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 868_binaryGap
+
+
+#############################################
+# Order-only phony target for 868_binaryGap
+
+build cmake_object_order_depends_target_868_binaryGap: phony || .
+
+build leetcode_26_2/CMakeFiles/868_binaryGap.dir/868_binaryGap.cpp.obj: CXX_COMPILER__868_binaryGap_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_2/868_binaryGap.cpp || cmake_object_order_depends_target_868_binaryGap
+  DEP_FILE = leetcode_26_2\CMakeFiles\868_binaryGap.dir\868_binaryGap.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_2\CMakeFiles\868_binaryGap.dir
+  OBJECT_FILE_DIR = leetcode_26_2\CMakeFiles\868_binaryGap.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 868_binaryGap
+
+
+#############################################
+# Link the executable leetcode_26_2\868_binaryGap.exe
+
+build leetcode_26_2/868_binaryGap.exe: CXX_EXECUTABLE_LINKER__868_binaryGap_Debug leetcode_26_2/CMakeFiles/868_binaryGap.dir/868_binaryGap.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_2\CMakeFiles\868_binaryGap.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_2\868_binaryGap.exe
+  TARGET_IMPLIB = leetcode_26_2\lib868_binaryGap.dll.a
+  TARGET_PDB = 868_binaryGap.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -636,6 +669,10 @@ build 746_minCostClimbingStairs: phony leetcode_26_1/746_minCostClimbingStairs.e
 
 build 746_minCostClimbingStairs.exe: phony leetcode_26_1/746_minCostClimbingStairs.exe
 
+build 868_binaryGap: phony leetcode_26_2/868_binaryGap.exe
+
+build 868_binaryGap.exe: phony leetcode_26_2/868_binaryGap.exe
+
 build leetcode_luogu_coding_practise: phony leetcode_luogu_coding_practise.exe
 
 # =============================================================================
@@ -660,7 +697,7 @@ build leetcode_26_1/all: phony leetcode_26_1/746_minCostClimbingStairs.exe leetc
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_2
 
-build leetcode_26_2/all: phony leetcode_26_2/1385_findTheDistanceValue.exe leetcode_26_2/1653_minimumDeletions.exe leetcode_26_2/110_isBalanced.exe leetcode_26_2/1382_balanceBST.exe leetcode_26_2/2389_answerQueries.exe leetcode_26_2/3713_longestBalanced.exe
+build leetcode_26_2/all: phony leetcode_26_2/1385_findTheDistanceValue.exe leetcode_26_2/1653_minimumDeletions.exe leetcode_26_2/110_isBalanced.exe leetcode_26_2/1382_balanceBST.exe leetcode_26_2/2389_answerQueries.exe leetcode_26_2/3713_longestBalanced.exe leetcode_26_2/868_binaryGap.exe
 
 # =============================================================================
 # Built-in targets
