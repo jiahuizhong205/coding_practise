@@ -1,0 +1,1 @@
+add_executable(1980_findDifferentBinaryString 1980_findDifferentBinaryString.cpp)
