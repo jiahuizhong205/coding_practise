@@ -1,1 +1,2 @@
 add_executable(1980_findDifferentBinaryString 1980_findDifferentBinaryString.cpp)
+add_executable(3129_numberOfStableArrays 3129_numberOfStableArrays.cpp)

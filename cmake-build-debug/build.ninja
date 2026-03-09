@@ -652,6 +652,39 @@ build leetcode_26_3/1980_findDifferentBinaryString.exe: CXX_EXECUTABLE_LINKER__1
   TARGET_IMPLIB = leetcode_26_3\lib1980_findDifferentBinaryString.dll.a
   TARGET_PDB = 1980_findDifferentBinaryString.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3129_numberOfStableArrays
+
+
+#############################################
+# Order-only phony target for 3129_numberOfStableArrays
+
+build cmake_object_order_depends_target_3129_numberOfStableArrays: phony || .
+
+build leetcode_26_3/CMakeFiles/3129_numberOfStableArrays.dir/3129_numberOfStableArrays.cpp.obj: CXX_COMPILER__3129_numberOfStableArrays_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/3129_numberOfStableArrays.cpp || cmake_object_order_depends_target_3129_numberOfStableArrays
+  DEP_FILE = leetcode_26_3\CMakeFiles\3129_numberOfStableArrays.dir\3129_numberOfStableArrays.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\3129_numberOfStableArrays.dir
+  OBJECT_FILE_DIR = leetcode_26_3\CMakeFiles\3129_numberOfStableArrays.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3129_numberOfStableArrays
+
+
+#############################################
+# Link the executable leetcode_26_3\3129_numberOfStableArrays.exe
+
+build leetcode_26_3/3129_numberOfStableArrays.exe: CXX_EXECUTABLE_LINKER__3129_numberOfStableArrays_Debug leetcode_26_3/CMakeFiles/3129_numberOfStableArrays.dir/3129_numberOfStableArrays.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\3129_numberOfStableArrays.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_3\3129_numberOfStableArrays.exe
+  TARGET_IMPLIB = leetcode_26_3\lib3129_numberOfStableArrays.dll.a
+  TARGET_PDB = 3129_numberOfStableArrays.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -709,6 +742,10 @@ build 2529_maximumCount.exe: phony leetcode_26_1/2529_maximumCount.exe
 build 2976_minimumCost: phony leetcode_26_1/2976_minimumCost.exe
 
 build 2976_minimumCost.exe: phony leetcode_26_1/2976_minimumCost.exe
+
+build 3129_numberOfStableArrays: phony leetcode_26_3/3129_numberOfStableArrays.exe
+
+build 3129_numberOfStableArrays.exe: phony leetcode_26_3/3129_numberOfStableArrays.exe
 
 build 34_searchRange: phony leetcode_26_1/34_searchRange.exe
 
@@ -769,7 +806,7 @@ build leetcode_26_2/all: phony leetcode_26_2/1385_findTheDistanceValue.exe leetc
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3
 
-build leetcode_26_3/all: phony leetcode_26_3/1980_findDifferentBinaryString.exe
+build leetcode_26_3/all: phony leetcode_26_3/1980_findDifferentBinaryString.exe leetcode_26_3/3129_numberOfStableArrays.exe
 
 # =============================================================================
 # Built-in targets

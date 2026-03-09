@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -20,7 +21,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						14
+						16
 					]
 				},
 				{
@@ -35,13 +36,13 @@
 					"source" : "leetcode_26_1",
 					"targetIndexes" : 
 					[
-						5,
 						6,
 						7,
-						8,
 						9,
+						10,
 						11,
-						12
+						13,
+						14
 					]
 				},
 				{
@@ -60,9 +61,25 @@
 						1,
 						2,
 						3,
+						5,
+						12,
+						15
+					]
+				},
+				{
+					"build" : "leetcode_26_3",
+					"jsonFile" : "directory-leetcode_26_3-Debug-d95598212fdd2c9da83d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "leetcode_26_3",
+					"targetIndexes" : 
+					[
 						4,
-						10,
-						13
+						8
 					]
 				}
 			],
@@ -74,7 +91,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "leetcode_luogu_coding_practise",
 					"targetIndexes" : 
@@ -93,7 +111,9 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15,
+						16
 					]
 				}
 			],
@@ -128,6 +148,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 3,
+					"id" : "1980_findDifferentBinaryString::@230332af1a69daf4524c",
+					"jsonFile" : "target-1980_findDifferentBinaryString-Debug-366b69b28e06330f0431.json",
+					"name" : "1980_findDifferentBinaryString",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "2389_answerQueries::@e23729d9319596f10450",
 					"jsonFile" : "target-2389_answerQueries-Debug-be631aedbae2f53028a4.json",
@@ -146,6 +173,13 @@
 					"id" : "2976_minimumCost::@9e211cf3ccb46378cd58",
 					"jsonFile" : "target-2976_minimumCost-Debug-60779826cf76b7f57629.json",
 					"name" : "2976_minimumCost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "3129_numberOfStableArrays::@230332af1a69daf4524c",
+					"jsonFile" : "target-3129_numberOfStableArrays-Debug-9b7a716ba2c59f82001f.json",
+					"name" : "3129_numberOfStableArrays",
 					"projectIndex" : 0
 				},
 				{

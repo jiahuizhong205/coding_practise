@@ -155,6 +155,9 @@
 		},
 		{
 			"path" : "leetcode_26_2/CMakeLists.txt"
+		},
+		{
+			"path" : "leetcode_26_3/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
