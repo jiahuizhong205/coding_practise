@@ -62,50 +62,50 @@ using namespace std;
 
 
 
-class Solution {
-public:
-#define MOD 1000000007
-    vector<vector<vector<int>>> memo;
-
-    int dfs(int i, int j, int limit, int k) {
-        if (i == 0) {
-            return (k == 1 && j <= limit) ? 1 : 0;
-        }
-        if (j == 0) {
-            return (k == 0 && i <= limit) ? 1 : 0;
-        }
-
-        //记忆化检查，已计算过直接返回
-        if (memo[i][j][k] != -1) {
-            return memo[i][j][k];
-        }
-
-        long long res = 0; //用long long避免溢出
-        if (k == 0) {
-            res = (dfs(i-1, j, limit, 0) % MOD + dfs(i-1, j, limit, 1) % MOD) % MOD;
-
-            if (i > limit) {
-                res = (res - dfs(i - limit - 1, j, limit, 1) % MOD + MOD) % MOD;
-            }
-        } else if (k == 1) {
-            res = (dfs(i, j - 1, limit, 0) % MOD + dfs(i, j - 1, limit, 1) % MOD) % MOD;
-            if (j > limit) {
-                res = (res - dfs(i, j - limit - 1, limit, 0) % MOD + MOD) % MOD;
-            }
-        }
-
-        memo[i][j][k] = res % MOD;
-        return memo[i][j][k];
-    }
-        int numberOfStableArrays(int zero, int one, int limit) {
-        //初始化记忆化数组，大小为(zero+1)x(one+1)x2，初始值-1
-        memo = vector<vector<vector<int>>>(zero + 1,
-                    vector<vector<int>>(one + 1, vector<int>(2, -1)));
-        //结果相加后取模，且用long long避免溢出
-        long long total = (dfs(zero, one, limit, 0) + dfs(zero, one, limit, 1)) % MOD;
-        return total;
-    }
-};
+// class Solution {
+// public:
+// #define MOD 1000000007
+//     vector<vector<vector<int>>> memo;
+//
+//     int dfs(int i, int j, int limit, int k) {
+//         if (i == 0) {
+//             return (k == 1 && j <= limit) ? 1 : 0;
+//         }
+//         if (j == 0) {
+//             return (k == 0 && i <= limit) ? 1 : 0;
+//         }
+//
+//         //记忆化检查，已计算过直接返回
+//         if (memo[i][j][k] != -1) {
+//             return memo[i][j][k];
+//         }
+//
+//         long long res = 0; //用long long避免溢出
+//         if (k == 0) {
+//             res = (dfs(i-1, j, limit, 0) % MOD + dfs(i-1, j, limit, 1) % MOD) % MOD;
+//
+//             if (i > limit) {
+//                 res = (res - dfs(i - limit - 1, j, limit, 1) % MOD + MOD) % MOD;
+//             }
+//         } else if (k == 1) {
+//             res = (dfs(i, j - 1, limit, 0) % MOD + dfs(i, j - 1, limit, 1) % MOD) % MOD;
+//             if (j > limit) {
+//                 res = (res - dfs(i, j - limit - 1, limit, 0) % MOD + MOD) % MOD;
+//             }
+//         }
+//
+//         memo[i][j][k] = res % MOD;
+//         return memo[i][j][k];
+//     }
+//         int numberOfStableArrays(int zero, int one, int limit) {
+//         //初始化记忆化数组，大小为(zero+1)x(one+1)x2，初始值-1
+//         memo = vector<vector<vector<int>>>(zero + 1,
+//                     vector<vector<int>>(one + 1, vector<int>(2, -1)));
+//         //结果相加后取模，且用long long避免溢出
+//         long long total = (dfs(zero, one, limit, 0) + dfs(zero, one, limit, 1)) % MOD;
+//         return total;
+//     }
+// };
 /*
 *考虑稳定数组的最后一个位置填 0 还是 1：
 
@@ -149,3 +149,34 @@ dfs(i,j,1)=dfs(i,j−1,0)+dfs(i,j−1,1)−dfs(i,j−limit−1,0)
 来源：力扣（LeetCode）
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 */
+
+
+
+
+class Solution {
+public:
+    static constexpr int MOD = 1000000007;
+    int numberOfStableArrays(int zero, int one, int limit) {
+        vector<vector<long long>> dp0(zero+1, vector<long long>(one+1, 0));
+        vector<vector<long long>> dp1(zero+1, vector<long long>(one+1, 0));
+        for (int i = 1;i <= min(zero,limit);i++) {
+            dp0[i][0] = 1;
+        }
+        for (int j = 1;j <= min(one,limit);j++) {
+            dp1[0][j] = 1;
+        }
+        for (int i = 1;i <= zero;i++) {
+            for (int j = 1;j <= one;j++) {
+                dp0[i][j] = (dp0[i-1][j] + dp1[i-1][j])%MOD;
+                if (i > limit) {
+                    dp0[i][j] = (dp0[i][j] - dp1[i - limit - 1][j] + MOD)%MOD;
+                }
+                dp1[i][j] = (dp0[i][j - 1] + dp1[i][j - 1])%MOD;
+                if (j > limit) {
+                    dp1[i][j] = (dp1[i][j] - dp0[i][j - limit - 1] + MOD)%MOD;
+                }
+            }
+        }
+        return (dp0[zero][one]+dp1[zero][one])%MOD;
+    }
+};
