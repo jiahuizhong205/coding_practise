@@ -87,6 +87,7 @@ public:
         int w = bit_width((uint32_t) n);
         return ((1 << w) - 1) ^ n;
     }
+
 };
 /* 异或与n长度相同的全1串即可取反
  * /
