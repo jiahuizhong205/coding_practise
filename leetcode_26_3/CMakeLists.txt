@@ -1,2 +1,6 @@
 add_executable(1980_findDifferentBinaryString 1980_findDifferentBinaryString.cpp)
 add_executable(3129_numberOfStableArrays 3129_numberOfStableArrays.cpp)
+add_executable(1009_bitwiseComplement 1009_bitwiseComplement.cpp)
+add_executable(3600_maxStability 3600_maxStability.cpp)
+add_executable(1415_getHappyString 1415_getHappyString.cpp)
+add_executable(1878_getBiggestThree 1878_getBiggestThree.cpp)
