@@ -685,6 +685,204 @@ build leetcode_26_3/3129_numberOfStableArrays.exe: CXX_EXECUTABLE_LINKER__3129_n
   TARGET_IMPLIB = leetcode_26_3\lib3129_numberOfStableArrays.dll.a
   TARGET_PDB = 3129_numberOfStableArrays.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1009_bitwiseComplement
+
+
+#############################################
+# Order-only phony target for 1009_bitwiseComplement
+
+build cmake_object_order_depends_target_1009_bitwiseComplement: phony || .
+
+build leetcode_26_3/CMakeFiles/1009_bitwiseComplement.dir/1009_bitwiseComplement.cpp.obj: CXX_COMPILER__1009_bitwiseComplement_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/1009_bitwiseComplement.cpp || cmake_object_order_depends_target_1009_bitwiseComplement
+  DEP_FILE = leetcode_26_3\CMakeFiles\1009_bitwiseComplement.dir\1009_bitwiseComplement.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\1009_bitwiseComplement.dir
+  OBJECT_FILE_DIR = leetcode_26_3\CMakeFiles\1009_bitwiseComplement.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1009_bitwiseComplement
+
+
+#############################################
+# Link the executable leetcode_26_3\1009_bitwiseComplement.exe
+
+build leetcode_26_3/1009_bitwiseComplement.exe: CXX_EXECUTABLE_LINKER__1009_bitwiseComplement_Debug leetcode_26_3/CMakeFiles/1009_bitwiseComplement.dir/1009_bitwiseComplement.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\1009_bitwiseComplement.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_3\1009_bitwiseComplement.exe
+  TARGET_IMPLIB = leetcode_26_3\lib1009_bitwiseComplement.dll.a
+  TARGET_PDB = 1009_bitwiseComplement.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3600_maxStability
+
+
+#############################################
+# Order-only phony target for 3600_maxStability
+
+build cmake_object_order_depends_target_3600_maxStability: phony || .
+
+build leetcode_26_3/CMakeFiles/3600_maxStability.dir/3600_maxStability.cpp.obj: CXX_COMPILER__3600_maxStability_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/3600_maxStability.cpp || cmake_object_order_depends_target_3600_maxStability
+  DEP_FILE = leetcode_26_3\CMakeFiles\3600_maxStability.dir\3600_maxStability.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\3600_maxStability.dir
+  OBJECT_FILE_DIR = leetcode_26_3\CMakeFiles\3600_maxStability.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3600_maxStability
+
+
+#############################################
+# Link the executable leetcode_26_3\3600_maxStability.exe
+
+build leetcode_26_3/3600_maxStability.exe: CXX_EXECUTABLE_LINKER__3600_maxStability_Debug leetcode_26_3/CMakeFiles/3600_maxStability.dir/3600_maxStability.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\3600_maxStability.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_3\3600_maxStability.exe
+  TARGET_IMPLIB = leetcode_26_3\lib3600_maxStability.dll.a
+  TARGET_PDB = 3600_maxStability.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1415_getHappyString
+
+
+#############################################
+# Order-only phony target for 1415_getHappyString
+
+build cmake_object_order_depends_target_1415_getHappyString: phony || .
+
+build leetcode_26_3/CMakeFiles/1415_getHappyString.dir/1415_getHappyString.cpp.obj: CXX_COMPILER__1415_getHappyString_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/1415_getHappyString.cpp || cmake_object_order_depends_target_1415_getHappyString
+  DEP_FILE = leetcode_26_3\CMakeFiles\1415_getHappyString.dir\1415_getHappyString.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\1415_getHappyString.dir
+  OBJECT_FILE_DIR = leetcode_26_3\CMakeFiles\1415_getHappyString.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1415_getHappyString
+
+
+#############################################
+# Link the executable leetcode_26_3\1415_getHappyString.exe
+
+build leetcode_26_3/1415_getHappyString.exe: CXX_EXECUTABLE_LINKER__1415_getHappyString_Debug leetcode_26_3/CMakeFiles/1415_getHappyString.dir/1415_getHappyString.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\1415_getHappyString.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_3\1415_getHappyString.exe
+  TARGET_IMPLIB = leetcode_26_3\lib1415_getHappyString.dll.a
+  TARGET_PDB = 1415_getHappyString.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1878_getBiggestThree
+
+
+#############################################
+# Order-only phony target for 1878_getBiggestThree
+
+build cmake_object_order_depends_target_1878_getBiggestThree: phony || .
+
+build leetcode_26_3/CMakeFiles/1878_getBiggestThree.dir/1878_getBiggestThree.cpp.obj: CXX_COMPILER__1878_getBiggestThree_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/1878_getBiggestThree.cpp || cmake_object_order_depends_target_1878_getBiggestThree
+  DEP_FILE = leetcode_26_3\CMakeFiles\1878_getBiggestThree.dir\1878_getBiggestThree.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\1878_getBiggestThree.dir
+  OBJECT_FILE_DIR = leetcode_26_3\CMakeFiles\1878_getBiggestThree.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1878_getBiggestThree
+
+
+#############################################
+# Link the executable leetcode_26_3\1878_getBiggestThree.exe
+
+build leetcode_26_3/1878_getBiggestThree.exe: CXX_EXECUTABLE_LINKER__1878_getBiggestThree_Debug leetcode_26_3/CMakeFiles/1878_getBiggestThree.dir/1878_getBiggestThree.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\1878_getBiggestThree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_3\1878_getBiggestThree.exe
+  TARGET_IMPLIB = leetcode_26_3\lib1878_getBiggestThree.dll.a
+  TARGET_PDB = 1878_getBiggestThree.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1727_largestSubmatrix
+
+
+#############################################
+# Order-only phony target for 1727_largestSubmatrix
+
+build cmake_object_order_depends_target_1727_largestSubmatrix: phony || .
+
+build leetcode_26_3/CMakeFiles/1727_largestSubmatrix.dir/1727_largestSubmatrix.cpp.obj: CXX_COMPILER__1727_largestSubmatrix_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/1727_largestSubmatrix.cpp || cmake_object_order_depends_target_1727_largestSubmatrix
+  DEP_FILE = leetcode_26_3\CMakeFiles\1727_largestSubmatrix.dir\1727_largestSubmatrix.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\1727_largestSubmatrix.dir
+  OBJECT_FILE_DIR = leetcode_26_3\CMakeFiles\1727_largestSubmatrix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1727_largestSubmatrix
+
+
+#############################################
+# Link the executable leetcode_26_3\1727_largestSubmatrix.exe
+
+build leetcode_26_3/1727_largestSubmatrix.exe: CXX_EXECUTABLE_LINKER__1727_largestSubmatrix_Debug leetcode_26_3/CMakeFiles/1727_largestSubmatrix.dir/1727_largestSubmatrix.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\1727_largestSubmatrix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_3\1727_largestSubmatrix.exe
+  TARGET_IMPLIB = leetcode_26_3\lib1727_largestSubmatrix.dll.a
+  TARGET_PDB = 1727_largestSubmatrix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3296_minNumberOfSeconds
+
+
+#############################################
+# Order-only phony target for 3296_minNumberOfSeconds
+
+build cmake_object_order_depends_target_3296_minNumberOfSeconds: phony || .
+
+build leetcode_26_3/CMakeFiles/3296_minNumberOfSeconds.dir/3296_minNumberOfSeconds.cpp.obj: CXX_COMPILER__3296_minNumberOfSeconds_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/3296_minNumberOfSeconds.cpp || cmake_object_order_depends_target_3296_minNumberOfSeconds
+  DEP_FILE = leetcode_26_3\CMakeFiles\3296_minNumberOfSeconds.dir\3296_minNumberOfSeconds.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\3296_minNumberOfSeconds.dir
+  OBJECT_FILE_DIR = leetcode_26_3\CMakeFiles\3296_minNumberOfSeconds.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3296_minNumberOfSeconds
+
+
+#############################################
+# Link the executable leetcode_26_3\3296_minNumberOfSeconds.exe
+
+build leetcode_26_3/3296_minNumberOfSeconds.exe: CXX_EXECUTABLE_LINKER__3296_minNumberOfSeconds_Debug leetcode_26_3/CMakeFiles/3296_minNumberOfSeconds.dir/3296_minNumberOfSeconds.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\3296_minNumberOfSeconds.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_3\3296_minNumberOfSeconds.exe
+  TARGET_IMPLIB = leetcode_26_3\lib3296_minNumberOfSeconds.dll.a
+  TARGET_PDB = 3296_minNumberOfSeconds.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -711,6 +909,10 @@ build leetcode_26_3/rebuild_cache: phony leetcode_26_3/CMakeFiles/rebuild_cache.
 # =============================================================================
 # Target aliases.
 
+build 1009_bitwiseComplement: phony leetcode_26_3/1009_bitwiseComplement.exe
+
+build 1009_bitwiseComplement.exe: phony leetcode_26_3/1009_bitwiseComplement.exe
+
 build 110_isBalanced: phony leetcode_26_2/110_isBalanced.exe
 
 build 110_isBalanced.exe: phony leetcode_26_2/110_isBalanced.exe
@@ -723,9 +925,21 @@ build 1385_findTheDistanceValue: phony leetcode_26_2/1385_findTheDistanceValue.e
 
 build 1385_findTheDistanceValue.exe: phony leetcode_26_2/1385_findTheDistanceValue.exe
 
+build 1415_getHappyString: phony leetcode_26_3/1415_getHappyString.exe
+
+build 1415_getHappyString.exe: phony leetcode_26_3/1415_getHappyString.exe
+
 build 1653_minimumDeletions: phony leetcode_26_2/1653_minimumDeletions.exe
 
 build 1653_minimumDeletions.exe: phony leetcode_26_2/1653_minimumDeletions.exe
+
+build 1727_largestSubmatrix: phony leetcode_26_3/1727_largestSubmatrix.exe
+
+build 1727_largestSubmatrix.exe: phony leetcode_26_3/1727_largestSubmatrix.exe
+
+build 1878_getBiggestThree: phony leetcode_26_3/1878_getBiggestThree.exe
+
+build 1878_getBiggestThree.exe: phony leetcode_26_3/1878_getBiggestThree.exe
 
 build 1980_findDifferentBinaryString: phony leetcode_26_3/1980_findDifferentBinaryString.exe
 
@@ -747,6 +961,10 @@ build 3129_numberOfStableArrays: phony leetcode_26_3/3129_numberOfStableArrays.e
 
 build 3129_numberOfStableArrays.exe: phony leetcode_26_3/3129_numberOfStableArrays.exe
 
+build 3296_minNumberOfSeconds: phony leetcode_26_3/3296_minNumberOfSeconds.exe
+
+build 3296_minNumberOfSeconds.exe: phony leetcode_26_3/3296_minNumberOfSeconds.exe
+
 build 34_searchRange: phony leetcode_26_1/34_searchRange.exe
 
 build 34_searchRange.exe: phony leetcode_26_1/34_searchRange.exe
@@ -754,6 +972,10 @@ build 34_searchRange.exe: phony leetcode_26_1/34_searchRange.exe
 build 35_searchInsert: phony leetcode_26_1/35_searchInsert.exe
 
 build 35_searchInsert.exe: phony leetcode_26_1/35_searchInsert.exe
+
+build 3600_maxStability: phony leetcode_26_3/3600_maxStability.exe
+
+build 3600_maxStability.exe: phony leetcode_26_3/3600_maxStability.exe
 
 build 3693_climbStairs: phony leetcode_26_1/3693_climbStairs.exe
 
@@ -806,7 +1028,7 @@ build leetcode_26_2/all: phony leetcode_26_2/1385_findTheDistanceValue.exe leetc
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3
 
-build leetcode_26_3/all: phony leetcode_26_3/1980_findDifferentBinaryString.exe leetcode_26_3/3129_numberOfStableArrays.exe
+build leetcode_26_3/all: phony leetcode_26_3/1980_findDifferentBinaryString.exe leetcode_26_3/3129_numberOfStableArrays.exe leetcode_26_3/1009_bitwiseComplement.exe leetcode_26_3/3600_maxStability.exe leetcode_26_3/1415_getHappyString.exe leetcode_26_3/1878_getBiggestThree.exe leetcode_26_3/1727_largestSubmatrix.exe leetcode_26_3/3296_minNumberOfSeconds.exe
 
 # =============================================================================
 # Built-in targets
