@@ -883,6 +883,105 @@ build leetcode_26_3/3296_minNumberOfSeconds.exe: CXX_EXECUTABLE_LINKER__3296_min
   TARGET_IMPLIB = leetcode_26_3\lib3296_minNumberOfSeconds.dll.a
   TARGET_PDB = 3296_minNumberOfSeconds.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3070_countSubmatrices
+
+
+#############################################
+# Order-only phony target for 3070_countSubmatrices
+
+build cmake_object_order_depends_target_3070_countSubmatrices: phony || .
+
+build leetcode_26_3/CMakeFiles/3070_countSubmatrices.dir/3070_countSubmatrices.cpp.obj: CXX_COMPILER__3070_countSubmatrices_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/3070_countSubmatrices.cpp || cmake_object_order_depends_target_3070_countSubmatrices
+  DEP_FILE = leetcode_26_3\CMakeFiles\3070_countSubmatrices.dir\3070_countSubmatrices.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\3070_countSubmatrices.dir
+  OBJECT_FILE_DIR = leetcode_26_3\CMakeFiles\3070_countSubmatrices.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3070_countSubmatrices
+
+
+#############################################
+# Link the executable leetcode_26_3\3070_countSubmatrices.exe
+
+build leetcode_26_3/3070_countSubmatrices.exe: CXX_EXECUTABLE_LINKER__3070_countSubmatrices_Debug leetcode_26_3/CMakeFiles/3070_countSubmatrices.dir/3070_countSubmatrices.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\3070_countSubmatrices.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_3\3070_countSubmatrices.exe
+  TARGET_IMPLIB = leetcode_26_3\lib3070_countSubmatrices.dll.a
+  TARGET_PDB = 3070_countSubmatrices.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3212_numberOfSubmatrices
+
+
+#############################################
+# Order-only phony target for 3212_numberOfSubmatrices
+
+build cmake_object_order_depends_target_3212_numberOfSubmatrices: phony || .
+
+build leetcode_26_3/CMakeFiles/3212_numberOfSubmatrices.dir/3212_numberOfSubmatrices.cpp.obj: CXX_COMPILER__3212_numberOfSubmatrices_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/3212_numberOfSubmatrices.cpp || cmake_object_order_depends_target_3212_numberOfSubmatrices
+  DEP_FILE = leetcode_26_3\CMakeFiles\3212_numberOfSubmatrices.dir\3212_numberOfSubmatrices.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\3212_numberOfSubmatrices.dir
+  OBJECT_FILE_DIR = leetcode_26_3\CMakeFiles\3212_numberOfSubmatrices.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3212_numberOfSubmatrices
+
+
+#############################################
+# Link the executable leetcode_26_3\3212_numberOfSubmatrices.exe
+
+build leetcode_26_3/3212_numberOfSubmatrices.exe: CXX_EXECUTABLE_LINKER__3212_numberOfSubmatrices_Debug leetcode_26_3/CMakeFiles/3212_numberOfSubmatrices.dir/3212_numberOfSubmatrices.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\3212_numberOfSubmatrices.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_3\3212_numberOfSubmatrices.exe
+  TARGET_IMPLIB = leetcode_26_3\lib3212_numberOfSubmatrices.dll.a
+  TARGET_PDB = 3212_numberOfSubmatrices.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1_twoSum
+
+
+#############################################
+# Order-only phony target for 1_twoSum
+
+build cmake_object_order_depends_target_1_twoSum: phony || .
+
+build leetcode_26_3/CMakeFiles/1_twoSum.dir/1_twoSum.cpp.obj: CXX_COMPILER__1_twoSum_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/1_twoSum.cpp || cmake_object_order_depends_target_1_twoSum
+  DEP_FILE = leetcode_26_3\CMakeFiles\1_twoSum.dir\1_twoSum.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\1_twoSum.dir
+  OBJECT_FILE_DIR = leetcode_26_3\CMakeFiles\1_twoSum.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1_twoSum
+
+
+#############################################
+# Link the executable leetcode_26_3\1_twoSum.exe
+
+build leetcode_26_3/1_twoSum.exe: CXX_EXECUTABLE_LINKER__1_twoSum_Debug leetcode_26_3/CMakeFiles/1_twoSum.dir/1_twoSum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\1_twoSum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_3\1_twoSum.exe
+  TARGET_IMPLIB = leetcode_26_3\lib1_twoSum.dll.a
+  TARGET_PDB = 1_twoSum.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -945,6 +1044,10 @@ build 1980_findDifferentBinaryString: phony leetcode_26_3/1980_findDifferentBina
 
 build 1980_findDifferentBinaryString.exe: phony leetcode_26_3/1980_findDifferentBinaryString.exe
 
+build 1_twoSum: phony leetcode_26_3/1_twoSum.exe
+
+build 1_twoSum.exe: phony leetcode_26_3/1_twoSum.exe
+
 build 2389_answerQueries: phony leetcode_26_2/2389_answerQueries.exe
 
 build 2389_answerQueries.exe: phony leetcode_26_2/2389_answerQueries.exe
@@ -957,9 +1060,17 @@ build 2976_minimumCost: phony leetcode_26_1/2976_minimumCost.exe
 
 build 2976_minimumCost.exe: phony leetcode_26_1/2976_minimumCost.exe
 
+build 3070_countSubmatrices: phony leetcode_26_3/3070_countSubmatrices.exe
+
+build 3070_countSubmatrices.exe: phony leetcode_26_3/3070_countSubmatrices.exe
+
 build 3129_numberOfStableArrays: phony leetcode_26_3/3129_numberOfStableArrays.exe
 
 build 3129_numberOfStableArrays.exe: phony leetcode_26_3/3129_numberOfStableArrays.exe
+
+build 3212_numberOfSubmatrices: phony leetcode_26_3/3212_numberOfSubmatrices.exe
+
+build 3212_numberOfSubmatrices.exe: phony leetcode_26_3/3212_numberOfSubmatrices.exe
 
 build 3296_minNumberOfSeconds: phony leetcode_26_3/3296_minNumberOfSeconds.exe
 
@@ -1028,7 +1139,7 @@ build leetcode_26_2/all: phony leetcode_26_2/1385_findTheDistanceValue.exe leetc
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3
 
-build leetcode_26_3/all: phony leetcode_26_3/1980_findDifferentBinaryString.exe leetcode_26_3/3129_numberOfStableArrays.exe leetcode_26_3/1009_bitwiseComplement.exe leetcode_26_3/3600_maxStability.exe leetcode_26_3/1415_getHappyString.exe leetcode_26_3/1878_getBiggestThree.exe leetcode_26_3/1727_largestSubmatrix.exe leetcode_26_3/3296_minNumberOfSeconds.exe
+build leetcode_26_3/all: phony leetcode_26_3/1980_findDifferentBinaryString.exe leetcode_26_3/3129_numberOfStableArrays.exe leetcode_26_3/1009_bitwiseComplement.exe leetcode_26_3/3600_maxStability.exe leetcode_26_3/1415_getHappyString.exe leetcode_26_3/1878_getBiggestThree.exe leetcode_26_3/1727_largestSubmatrix.exe leetcode_26_3/3296_minNumberOfSeconds.exe leetcode_26_3/3070_countSubmatrices.exe leetcode_26_3/3212_numberOfSubmatrices.exe leetcode_26_3/1_twoSum.exe
 
 # =============================================================================
 # Built-in targets
