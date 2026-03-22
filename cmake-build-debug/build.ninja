@@ -982,6 +982,72 @@ build leetcode_26_3/1_twoSum.exe: CXX_EXECUTABLE_LINKER__1_twoSum_Debug leetcode
   TARGET_IMPLIB = leetcode_26_3\lib1_twoSum.dll.a
   TARGET_PDB = 1_twoSum.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3643_reverseSubmatrix
+
+
+#############################################
+# Order-only phony target for 3643_reverseSubmatrix
+
+build cmake_object_order_depends_target_3643_reverseSubmatrix: phony || .
+
+build leetcode_26_3/CMakeFiles/3643_reverseSubmatrix.dir/3643_reverseSubmatrix.cpp.obj: CXX_COMPILER__3643_reverseSubmatrix_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/3643_reverseSubmatrix.cpp || cmake_object_order_depends_target_3643_reverseSubmatrix
+  DEP_FILE = leetcode_26_3\CMakeFiles\3643_reverseSubmatrix.dir\3643_reverseSubmatrix.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\3643_reverseSubmatrix.dir
+  OBJECT_FILE_DIR = leetcode_26_3\CMakeFiles\3643_reverseSubmatrix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3643_reverseSubmatrix
+
+
+#############################################
+# Link the executable leetcode_26_3\3643_reverseSubmatrix.exe
+
+build leetcode_26_3/3643_reverseSubmatrix.exe: CXX_EXECUTABLE_LINKER__3643_reverseSubmatrix_Debug leetcode_26_3/CMakeFiles/3643_reverseSubmatrix.dir/3643_reverseSubmatrix.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\3643_reverseSubmatrix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_3\3643_reverseSubmatrix.exe
+  TARGET_IMPLIB = leetcode_26_3\lib3643_reverseSubmatrix.dll.a
+  TARGET_PDB = 3643_reverseSubmatrix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1886_findRotation
+
+
+#############################################
+# Order-only phony target for 1886_findRotation
+
+build cmake_object_order_depends_target_1886_findRotation: phony || .
+
+build leetcode_26_3/CMakeFiles/1886_findRotation.dir/1886_findRotation.cpp.obj: CXX_COMPILER__1886_findRotation_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/1886_findRotation.cpp || cmake_object_order_depends_target_1886_findRotation
+  DEP_FILE = leetcode_26_3\CMakeFiles\1886_findRotation.dir\1886_findRotation.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\1886_findRotation.dir
+  OBJECT_FILE_DIR = leetcode_26_3\CMakeFiles\1886_findRotation.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1886_findRotation
+
+
+#############################################
+# Link the executable leetcode_26_3\1886_findRotation.exe
+
+build leetcode_26_3/1886_findRotation.exe: CXX_EXECUTABLE_LINKER__1886_findRotation_Debug leetcode_26_3/CMakeFiles/1886_findRotation.dir/1886_findRotation.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = leetcode_26_3\CMakeFiles\1886_findRotation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_26_3\1886_findRotation.exe
+  TARGET_IMPLIB = leetcode_26_3\lib1886_findRotation.dll.a
+  TARGET_PDB = 1886_findRotation.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1040,6 +1106,10 @@ build 1878_getBiggestThree: phony leetcode_26_3/1878_getBiggestThree.exe
 
 build 1878_getBiggestThree.exe: phony leetcode_26_3/1878_getBiggestThree.exe
 
+build 1886_findRotation: phony leetcode_26_3/1886_findRotation.exe
+
+build 1886_findRotation.exe: phony leetcode_26_3/1886_findRotation.exe
+
 build 1980_findDifferentBinaryString: phony leetcode_26_3/1980_findDifferentBinaryString.exe
 
 build 1980_findDifferentBinaryString.exe: phony leetcode_26_3/1980_findDifferentBinaryString.exe
@@ -1087,6 +1157,10 @@ build 35_searchInsert.exe: phony leetcode_26_1/35_searchInsert.exe
 build 3600_maxStability: phony leetcode_26_3/3600_maxStability.exe
 
 build 3600_maxStability.exe: phony leetcode_26_3/3600_maxStability.exe
+
+build 3643_reverseSubmatrix: phony leetcode_26_3/3643_reverseSubmatrix.exe
+
+build 3643_reverseSubmatrix.exe: phony leetcode_26_3/3643_reverseSubmatrix.exe
 
 build 3693_climbStairs: phony leetcode_26_1/3693_climbStairs.exe
 
@@ -1139,7 +1213,7 @@ build leetcode_26_2/all: phony leetcode_26_2/1385_findTheDistanceValue.exe leetc
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3
 
-build leetcode_26_3/all: phony leetcode_26_3/1980_findDifferentBinaryString.exe leetcode_26_3/3129_numberOfStableArrays.exe leetcode_26_3/1009_bitwiseComplement.exe leetcode_26_3/3600_maxStability.exe leetcode_26_3/1415_getHappyString.exe leetcode_26_3/1878_getBiggestThree.exe leetcode_26_3/1727_largestSubmatrix.exe leetcode_26_3/3296_minNumberOfSeconds.exe leetcode_26_3/3070_countSubmatrices.exe leetcode_26_3/3212_numberOfSubmatrices.exe leetcode_26_3/1_twoSum.exe
+build leetcode_26_3/all: phony leetcode_26_3/1980_findDifferentBinaryString.exe leetcode_26_3/3129_numberOfStableArrays.exe leetcode_26_3/1009_bitwiseComplement.exe leetcode_26_3/3600_maxStability.exe leetcode_26_3/1415_getHappyString.exe leetcode_26_3/1878_getBiggestThree.exe leetcode_26_3/1727_largestSubmatrix.exe leetcode_26_3/3296_minNumberOfSeconds.exe leetcode_26_3/3070_countSubmatrices.exe leetcode_26_3/3212_numberOfSubmatrices.exe leetcode_26_3/1_twoSum.exe leetcode_26_3/3643_reverseSubmatrix.exe leetcode_26_3/1886_findRotation.exe
 
 # =============================================================================
 # Built-in targets
