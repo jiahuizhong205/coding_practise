@@ -32,5 +32,9 @@ D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3/CMakeFiles
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3/CMakeFiles/1_twoSum.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3/CMakeFiles/3643_reverseSubmatrix.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3/CMakeFiles/1886_findRotation.dir
+D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3/CMakeFiles/1594_maxProductPath.dir
+D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3/CMakeFiles/2906_constructProductMatrix.dir
+D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3/CMakeFiles/3567_minAbsDiff.dir
+D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3/CMakeFiles/3546_canPartitionGrid.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3/CMakeFiles/edit_cache.dir
 D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug/leetcode_26_3/CMakeFiles/rebuild_cache.dir
