@@ -31,7 +31,8 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					]
 				}
 			],
@@ -66,7 +67,8 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					]
 				}
 			],
@@ -140,6 +142,13 @@
 					"id" : "2839_canBeEqual::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-2839_canBeEqual-Debug-b1f7e17058a2ce96c7a2.json",
 					"name" : "2839_canBeEqual",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2840_checkStrings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2840_checkStrings-Debug-ee25626bbb9695590fa8.json",
+					"name" : "2840_checkStrings",
 					"projectIndex" : 0
 				},
 				{

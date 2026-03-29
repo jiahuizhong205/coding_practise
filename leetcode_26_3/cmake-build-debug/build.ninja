@@ -733,6 +733,39 @@ build 2839_canBeEqual.exe: CXX_EXECUTABLE_LINKER__2839_canBeEqual_Debug CMakeFil
   TARGET_IMPLIB = lib2839_canBeEqual.dll.a
   TARGET_PDB = 2839_canBeEqual.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2840_checkStrings
+
+
+#############################################
+# Order-only phony target for 2840_checkStrings
+
+build cmake_object_order_depends_target_2840_checkStrings: phony || .
+
+build CMakeFiles/2840_checkStrings.dir/2840_checkStrings.cpp.obj: CXX_COMPILER__2840_checkStrings_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/2840_checkStrings.cpp || cmake_object_order_depends_target_2840_checkStrings
+  DEP_FILE = CMakeFiles\2840_checkStrings.dir\2840_checkStrings.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2840_checkStrings.dir
+  OBJECT_FILE_DIR = CMakeFiles\2840_checkStrings.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2840_checkStrings
+
+
+#############################################
+# Link the executable 2840_checkStrings.exe
+
+build 2840_checkStrings.exe: CXX_EXECUTABLE_LINKER__2840_checkStrings_Debug CMakeFiles/2840_checkStrings.dir/2840_checkStrings.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2840_checkStrings.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2840_checkStrings.exe
+  TARGET_IMPLIB = lib2840_checkStrings.dll.a
+  TARGET_PDB = 2840_checkStrings.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -779,6 +812,8 @@ build 2573_findTheString: phony 2573_findTheString.exe
 
 build 2839_canBeEqual: phony 2839_canBeEqual.exe
 
+build 2840_checkStrings: phony 2840_checkStrings.exe
+
 build 2906_constructProductMatrix: phony 2906_constructProductMatrix.exe
 
 build 2946_reSimilar: phony 2946_reSimilar.exe
@@ -809,7 +844,7 @@ build 3643_reverseSubmatrix: phony 3643_reverseSubmatrix.exe
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug
 
-build all: phony 1980_findDifferentBinaryString.exe 3129_numberOfStableArrays.exe 1009_bitwiseComplement.exe 3600_maxStability.exe 1415_getHappyString.exe 1878_getBiggestThree.exe 1727_largestSubmatrix.exe 3296_minNumberOfSeconds.exe 3070_countSubmatrices.exe 3212_numberOfSubmatrices.exe 1_twoSum.exe 3643_reverseSubmatrix.exe 1886_findRotation.exe 1594_maxProductPath.exe 2906_constructProductMatrix.exe 3567_minAbsDiff.exe 3546_canPartitionGrid.exe 3548_canPartitionGrid.exe 2946_reSimilar.exe 2573_findTheString.exe 2839_canBeEqual.exe
+build all: phony 1980_findDifferentBinaryString.exe 3129_numberOfStableArrays.exe 1009_bitwiseComplement.exe 3600_maxStability.exe 1415_getHappyString.exe 1878_getBiggestThree.exe 1727_largestSubmatrix.exe 3296_minNumberOfSeconds.exe 3070_countSubmatrices.exe 3212_numberOfSubmatrices.exe 1_twoSum.exe 3643_reverseSubmatrix.exe 1886_findRotation.exe 1594_maxProductPath.exe 2906_constructProductMatrix.exe 3567_minAbsDiff.exe 3546_canPartitionGrid.exe 3548_canPartitionGrid.exe 2946_reSimilar.exe 2573_findTheString.exe 2839_canBeEqual.exe 2840_checkStrings.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
