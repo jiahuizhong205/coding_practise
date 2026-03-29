@@ -30,7 +30,8 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20
 					]
 				}
 			],
@@ -64,7 +65,8 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20
 					]
 				}
 			],
@@ -131,6 +133,13 @@
 					"id" : "2573_findTheString::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-2573_findTheString-Debug-9327c6f3adcf053569dc.json",
 					"name" : "2573_findTheString",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2839_canBeEqual::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2839_canBeEqual-Debug-b1f7e17058a2ce96c7a2.json",
+					"name" : "2839_canBeEqual",
 					"projectIndex" : 0
 				},
 				{

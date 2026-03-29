@@ -17,5 +17,7 @@ D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles/3546_canPartitionGrid.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles/3548_canPartitionGrid.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles/2946_reSimilar.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles/2573_findTheString.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles/2839_canBeEqual.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
