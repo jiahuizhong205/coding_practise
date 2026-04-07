@@ -766,6 +766,39 @@ build 2840_checkStrings.exe: CXX_EXECUTABLE_LINKER__2840_checkStrings_Debug CMak
   TARGET_IMPLIB = lib2840_checkStrings.dll.a
   TARGET_PDB = 2840_checkStrings.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3474_generateString
+
+
+#############################################
+# Order-only phony target for 3474_generateString
+
+build cmake_object_order_depends_target_3474_generateString: phony || .
+
+build CMakeFiles/3474_generateString.dir/3474_generateString.cpp.obj: CXX_COMPILER__3474_generateString_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/3474_generateString.cpp || cmake_object_order_depends_target_3474_generateString
+  DEP_FILE = CMakeFiles\3474_generateString.dir\3474_generateString.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3474_generateString.dir
+  OBJECT_FILE_DIR = CMakeFiles\3474_generateString.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3474_generateString
+
+
+#############################################
+# Link the executable 3474_generateString.exe
+
+build 3474_generateString.exe: CXX_EXECUTABLE_LINKER__3474_generateString_Debug CMakeFiles/3474_generateString.dir/3474_generateString.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3474_generateString.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3474_generateString.exe
+  TARGET_IMPLIB = lib3474_generateString.dll.a
+  TARGET_PDB = 3474_generateString.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -826,6 +859,8 @@ build 3212_numberOfSubmatrices: phony 3212_numberOfSubmatrices.exe
 
 build 3296_minNumberOfSeconds: phony 3296_minNumberOfSeconds.exe
 
+build 3474_generateString: phony 3474_generateString.exe
+
 build 3546_canPartitionGrid: phony 3546_canPartitionGrid.exe
 
 build 3548_canPartitionGrid: phony 3548_canPartitionGrid.exe
@@ -844,7 +879,7 @@ build 3643_reverseSubmatrix: phony 3643_reverseSubmatrix.exe
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug
 
-build all: phony 1980_findDifferentBinaryString.exe 3129_numberOfStableArrays.exe 1009_bitwiseComplement.exe 3600_maxStability.exe 1415_getHappyString.exe 1878_getBiggestThree.exe 1727_largestSubmatrix.exe 3296_minNumberOfSeconds.exe 3070_countSubmatrices.exe 3212_numberOfSubmatrices.exe 1_twoSum.exe 3643_reverseSubmatrix.exe 1886_findRotation.exe 1594_maxProductPath.exe 2906_constructProductMatrix.exe 3567_minAbsDiff.exe 3546_canPartitionGrid.exe 3548_canPartitionGrid.exe 2946_reSimilar.exe 2573_findTheString.exe 2839_canBeEqual.exe 2840_checkStrings.exe
+build all: phony 1980_findDifferentBinaryString.exe 3129_numberOfStableArrays.exe 1009_bitwiseComplement.exe 3600_maxStability.exe 1415_getHappyString.exe 1878_getBiggestThree.exe 1727_largestSubmatrix.exe 3296_minNumberOfSeconds.exe 3070_countSubmatrices.exe 3212_numberOfSubmatrices.exe 1_twoSum.exe 3643_reverseSubmatrix.exe 1886_findRotation.exe 1594_maxProductPath.exe 2906_constructProductMatrix.exe 3567_minAbsDiff.exe 3546_canPartitionGrid.exe 3548_canPartitionGrid.exe 2946_reSimilar.exe 2573_findTheString.exe 2839_canBeEqual.exe 2840_checkStrings.exe 3474_generateString.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

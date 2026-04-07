@@ -1,0 +1,478 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "leetcode_26_1",
+					"jsonFile" : "directory-leetcode_26_1-Debug-b21901234bca2a0ee031.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "leetcode_26_1",
+					"targetIndexes" : 
+					[
+						13,
+						20,
+						27,
+						31,
+						34,
+						36,
+						37
+					]
+				},
+				{
+					"build" : "leetcode_26_2",
+					"jsonFile" : "directory-leetcode_26_2-Debug-9922ea829d4e7c363243.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "leetcode_26_2",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						6,
+						12,
+						35,
+						38
+					]
+				},
+				{
+					"build" : "leetcode_26_3",
+					"jsonFile" : "directory-leetcode_26_3-Debug-d95598212fdd2c9da83d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "leetcode_26_3",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						14,
+						16,
+						17,
+						18,
+						19,
+						21,
+						22,
+						23,
+						24,
+						26,
+						28,
+						29,
+						30,
+						32,
+						33
+					]
+				},
+				{
+					"build" : "leetcode_26_4",
+					"jsonFile" : "directory-leetcode_26_4-Debug-6f71fc120aa04103b689.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "leetcode_26_4",
+					"targetIndexes" : 
+					[
+						15,
+						25
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "leetcode_luogu_coding_practise",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "1009_bitwiseComplement::@230332af1a69daf4524c",
+					"jsonFile" : "target-1009_bitwiseComplement-Debug-d645b6a9eca7362e0c98.json",
+					"name" : "1009_bitwiseComplement",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "110_isBalanced::@e23729d9319596f10450",
+					"jsonFile" : "target-110_isBalanced-Debug-3d13851a588560c3dd82.json",
+					"name" : "110_isBalanced",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "1382_balanceBST::@e23729d9319596f10450",
+					"jsonFile" : "target-1382_balanceBST-Debug-7f4e1b5388a5f64d0af6.json",
+					"name" : "1382_balanceBST",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "1385_findTheDistanceValue::@e23729d9319596f10450",
+					"jsonFile" : "target-1385_findTheDistanceValue-Debug-5b57c95b7a3b8bbe0b83.json",
+					"name" : "1385_findTheDistanceValue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "1415_getHappyString::@230332af1a69daf4524c",
+					"jsonFile" : "target-1415_getHappyString-Debug-20fa6b41972dd46ca5f3.json",
+					"name" : "1415_getHappyString",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "1594_maxProductPath::@230332af1a69daf4524c",
+					"jsonFile" : "target-1594_maxProductPath-Debug-6016bb246501eb917416.json",
+					"name" : "1594_maxProductPath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "1653_minimumDeletions::@e23729d9319596f10450",
+					"jsonFile" : "target-1653_minimumDeletions-Debug-e836147e1221966f8286.json",
+					"name" : "1653_minimumDeletions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "1727_largestSubmatrix::@230332af1a69daf4524c",
+					"jsonFile" : "target-1727_largestSubmatrix-Debug-1eec1179dd5ad9951c7b.json",
+					"name" : "1727_largestSubmatrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "1878_getBiggestThree::@230332af1a69daf4524c",
+					"jsonFile" : "target-1878_getBiggestThree-Debug-4a337d093b29db4f0648.json",
+					"name" : "1878_getBiggestThree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "1886_findRotation::@230332af1a69daf4524c",
+					"jsonFile" : "target-1886_findRotation-Debug-f339e2706962617b8b88.json",
+					"name" : "1886_findRotation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "1980_findDifferentBinaryString::@230332af1a69daf4524c",
+					"jsonFile" : "target-1980_findDifferentBinaryString-Debug-8bd70fdb64e4eec9f606.json",
+					"name" : "1980_findDifferentBinaryString",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "1_twoSum::@230332af1a69daf4524c",
+					"jsonFile" : "target-1_twoSum-Debug-46e74c369daed4bf88df.json",
+					"name" : "1_twoSum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "2389_answerQueries::@e23729d9319596f10450",
+					"jsonFile" : "target-2389_answerQueries-Debug-b689bd37fe4a949078b7.json",
+					"name" : "2389_answerQueries",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "2529_maximumCount::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-2529_maximumCount-Debug-83c22b240f4aa1f8c21b.json",
+					"name" : "2529_maximumCount",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "2573_findTheString::@230332af1a69daf4524c",
+					"jsonFile" : "target-2573_findTheString-Debug-e95a4b508b4ea3020210.json",
+					"name" : "2573_findTheString",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "2751_survivedRobotsHealths::@df7dbd9fe2c8b4a40643",
+					"jsonFile" : "target-2751_survivedRobotsHealths-Debug-383d8cf6e62242897021.json",
+					"name" : "2751_survivedRobotsHealths",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "2839_canBeEqual::@230332af1a69daf4524c",
+					"jsonFile" : "target-2839_canBeEqual-Debug-b66481f8d5a8e82494c9.json",
+					"name" : "2839_canBeEqual",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "2840_checkStrings::@230332af1a69daf4524c",
+					"jsonFile" : "target-2840_checkStrings-Debug-3d6d937352f0e4d5fa05.json",
+					"name" : "2840_checkStrings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "2906_constructProductMatrix::@230332af1a69daf4524c",
+					"jsonFile" : "target-2906_constructProductMatrix-Debug-a0b08d38e09c40db02a6.json",
+					"name" : "2906_constructProductMatrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "2946_reSimilar::@230332af1a69daf4524c",
+					"jsonFile" : "target-2946_reSimilar-Debug-0862b0f5251e5dfd468e.json",
+					"name" : "2946_reSimilar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "2976_minimumCost::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-2976_minimumCost-Debug-d9869ddf9c3c936ae8f4.json",
+					"name" : "2976_minimumCost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "3070_countSubmatrices::@230332af1a69daf4524c",
+					"jsonFile" : "target-3070_countSubmatrices-Debug-2289fd0e6335b5ee088b.json",
+					"name" : "3070_countSubmatrices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "3129_numberOfStableArrays::@230332af1a69daf4524c",
+					"jsonFile" : "target-3129_numberOfStableArrays-Debug-c8d96c045e56ad2d519a.json",
+					"name" : "3129_numberOfStableArrays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "3212_numberOfSubmatrices::@230332af1a69daf4524c",
+					"jsonFile" : "target-3212_numberOfSubmatrices-Debug-1ddd1cf93af9177a4e76.json",
+					"name" : "3212_numberOfSubmatrices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "3296_minNumberOfSeconds::@230332af1a69daf4524c",
+					"jsonFile" : "target-3296_minNumberOfSeconds-Debug-697fb8fabc1ce96835fc.json",
+					"name" : "3296_minNumberOfSeconds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "3418_maximumAmount::@df7dbd9fe2c8b4a40643",
+					"jsonFile" : "target-3418_maximumAmount-Debug-d23e1b4ab65baf179e74.json",
+					"name" : "3418_maximumAmount",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "3474_generateString::@230332af1a69daf4524c",
+					"jsonFile" : "target-3474_generateString-Debug-fdcc87ecfc67b796deb0.json",
+					"name" : "3474_generateString",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "34_searchRange::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-34_searchRange-Debug-b9a5e55e930db54a080c.json",
+					"name" : "34_searchRange",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "3546_canPartitionGrid::@230332af1a69daf4524c",
+					"jsonFile" : "target-3546_canPartitionGrid-Debug-831c3d12f173854cc4f0.json",
+					"name" : "3546_canPartitionGrid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "3548_canPartitionGrid::@230332af1a69daf4524c",
+					"jsonFile" : "target-3548_canPartitionGrid-Debug-573578b212cc2c8aabb5.json",
+					"name" : "3548_canPartitionGrid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "3567_minAbsDiff::@230332af1a69daf4524c",
+					"jsonFile" : "target-3567_minAbsDiff-Debug-8ec6dc918c212a33a880.json",
+					"name" : "3567_minAbsDiff",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "35_searchInsert::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-35_searchInsert-Debug-84d2f49f9d282c612f4f.json",
+					"name" : "35_searchInsert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "3600_maxStability::@230332af1a69daf4524c",
+					"jsonFile" : "target-3600_maxStability-Debug-41e5787b6b385b434a5c.json",
+					"name" : "3600_maxStability",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "3643_reverseSubmatrix::@230332af1a69daf4524c",
+					"jsonFile" : "target-3643_reverseSubmatrix-Debug-b4302c451d8f41a07d6b.json",
+					"name" : "3643_reverseSubmatrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "3693_climbStairs::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-3693_climbStairs-Debug-f1defbd3c660034527f7.json",
+					"name" : "3693_climbStairs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "3713_longestBalanced::@e23729d9319596f10450",
+					"jsonFile" : "target-3713_longestBalanced-Debug-db05a214e7eecf5d0112.json",
+					"name" : "3713_longestBalanced",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "744_nextGreatestLetter::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-744_nextGreatestLetter-Debug-e2bdbacfb6739fa8410b.json",
+					"name" : "744_nextGreatestLetter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "746_minCostClimbingStairs::@9e211cf3ccb46378cd58",
+					"jsonFile" : "target-746_minCostClimbingStairs-Debug-0c7e88f3472f491182ec.json",
+					"name" : "746_minCostClimbingStairs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "868_binaryGap::@e23729d9319596f10450",
+					"jsonFile" : "target-868_binaryGap-Debug-fc696f5e2d72692b5caf.json",
+					"name" : "868_binaryGap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode_luogu_coding_practise::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode_luogu_coding_practise-Debug-3303680cc071a4ae3c63.json",
+					"name" : "leetcode_luogu_coding_practise",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/cpl/leetcode_luogu_coding_practise/cmake-build-debug",
+		"source" : "D:/cpl/leetcode_luogu_coding_practise"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

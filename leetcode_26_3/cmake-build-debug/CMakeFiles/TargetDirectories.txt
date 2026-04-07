@@ -20,5 +20,6 @@ D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles/2573_findTheString.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles/2839_canBeEqual.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles/2840_checkStrings.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles/3474_generateString.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

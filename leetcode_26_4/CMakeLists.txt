@@ -1,0 +1,4 @@
+add_executable(2751_survivedRobotsHealths 2751_survivedRobotsHealths.cpp)
+add_executable(3418_maximumAmount 3418_maximumAmount.cpp)
+add_executable(3661_maxWalls 3661_maxWalls.cpp)
+add_executable(2080_RangeFreqQuery 2080_RangeFreqQuery.cpp)
