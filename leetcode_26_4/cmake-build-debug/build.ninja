@@ -172,6 +172,105 @@ build 2080_RangeFreqQuery.exe: CXX_EXECUTABLE_LINKER__2080_RangeFreqQuery_Debug 
   TARGET_IMPLIB = lib2080_RangeFreqQuery.dll.a
   TARGET_PDB = 2080_RangeFreqQuery.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3653_xorAfterQueries
+
+
+#############################################
+# Order-only phony target for 3653_xorAfterQueries
+
+build cmake_object_order_depends_target_3653_xorAfterQueries: phony || .
+
+build CMakeFiles/3653_xorAfterQueries.dir/3653_xorAfterQueries.cpp.obj: CXX_COMPILER__3653_xorAfterQueries_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/3653_xorAfterQueries.cpp || cmake_object_order_depends_target_3653_xorAfterQueries
+  DEP_FILE = CMakeFiles\3653_xorAfterQueries.dir\3653_xorAfterQueries.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3653_xorAfterQueries.dir
+  OBJECT_FILE_DIR = CMakeFiles\3653_xorAfterQueries.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3653_xorAfterQueries
+
+
+#############################################
+# Link the executable 3653_xorAfterQueries.exe
+
+build 3653_xorAfterQueries.exe: CXX_EXECUTABLE_LINKER__3653_xorAfterQueries_Debug CMakeFiles/3653_xorAfterQueries.dir/3653_xorAfterQueries.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3653_xorAfterQueries.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3653_xorAfterQueries.exe
+  TARGET_IMPLIB = lib3653_xorAfterQueries.dll.a
+  TARGET_PDB = 3653_xorAfterQueries.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3488_solveQueries
+
+
+#############################################
+# Order-only phony target for 3488_solveQueries
+
+build cmake_object_order_depends_target_3488_solveQueries: phony || .
+
+build CMakeFiles/3488_solveQueries.dir/3488_solveQueries.cpp.obj: CXX_COMPILER__3488_solveQueries_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/3488_solveQueries.cpp || cmake_object_order_depends_target_3488_solveQueries
+  DEP_FILE = CMakeFiles\3488_solveQueries.dir\3488_solveQueries.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3488_solveQueries.dir
+  OBJECT_FILE_DIR = CMakeFiles\3488_solveQueries.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3488_solveQueries
+
+
+#############################################
+# Link the executable 3488_solveQueries.exe
+
+build 3488_solveQueries.exe: CXX_EXECUTABLE_LINKER__3488_solveQueries_Debug CMakeFiles/3488_solveQueries.dir/3488_solveQueries.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3488_solveQueries.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3488_solveQueries.exe
+  TARGET_IMPLIB = lib3488_solveQueries.dll.a
+  TARGET_PDB = 3488_solveQueries.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2563_countFairPairs
+
+
+#############################################
+# Order-only phony target for 2563_countFairPairs
+
+build cmake_object_order_depends_target_2563_countFairPairs: phony || .
+
+build CMakeFiles/2563_countFairPairs.dir/2563_countFairPairs.cpp.obj: CXX_COMPILER__2563_countFairPairs_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/2563_countFairPairs.cpp || cmake_object_order_depends_target_2563_countFairPairs
+  DEP_FILE = CMakeFiles\2563_countFairPairs.dir\2563_countFairPairs.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2563_countFairPairs.dir
+  OBJECT_FILE_DIR = CMakeFiles\2563_countFairPairs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2563_countFairPairs
+
+
+#############################################
+# Link the executable 2563_countFairPairs.exe
+
+build 2563_countFairPairs.exe: CXX_EXECUTABLE_LINKER__2563_countFairPairs_Debug CMakeFiles/2563_countFairPairs.dir/2563_countFairPairs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2563_countFairPairs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2563_countFairPairs.exe
+  TARGET_IMPLIB = lib2563_countFairPairs.dll.a
+  TARGET_PDB = 2563_countFairPairs.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -200,9 +299,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 2080_RangeFreqQuery: phony 2080_RangeFreqQuery.exe
 
+build 2563_countFairPairs: phony 2563_countFairPairs.exe
+
 build 2751_survivedRobotsHealths: phony 2751_survivedRobotsHealths.exe
 
 build 3418_maximumAmount: phony 3418_maximumAmount.exe
+
+build 3488_solveQueries: phony 3488_solveQueries.exe
+
+build 3653_xorAfterQueries: phony 3653_xorAfterQueries.exe
 
 build 3661_maxWalls: phony 3661_maxWalls.exe
 
@@ -214,7 +319,7 @@ build 3661_maxWalls: phony 3661_maxWalls.exe
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug
 
-build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe
+build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
