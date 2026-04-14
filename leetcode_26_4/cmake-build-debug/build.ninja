@@ -271,6 +271,72 @@ build 2563_countFairPairs.exe: CXX_EXECUTABLE_LINKER__2563_countFairPairs_Debug 
   TARGET_IMPLIB = lib2563_countFairPairs.dll.a
   TARGET_PDB = 2563_countFairPairs.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2070_maximumBeauty
+
+
+#############################################
+# Order-only phony target for 2070_maximumBeauty
+
+build cmake_object_order_depends_target_2070_maximumBeauty: phony || .
+
+build CMakeFiles/2070_maximumBeauty.dir/2070_maximumBeauty.cpp.obj: CXX_COMPILER__2070_maximumBeauty_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/2070_maximumBeauty.cpp || cmake_object_order_depends_target_2070_maximumBeauty
+  DEP_FILE = CMakeFiles\2070_maximumBeauty.dir\2070_maximumBeauty.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2070_maximumBeauty.dir
+  OBJECT_FILE_DIR = CMakeFiles\2070_maximumBeauty.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2070_maximumBeauty
+
+
+#############################################
+# Link the executable 2070_maximumBeauty.exe
+
+build 2070_maximumBeauty.exe: CXX_EXECUTABLE_LINKER__2070_maximumBeauty_Debug CMakeFiles/2070_maximumBeauty.dir/2070_maximumBeauty.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2070_maximumBeauty.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2070_maximumBeauty.exe
+  TARGET_IMPLIB = lib2070_maximumBeauty.dll.a
+  TARGET_PDB = 2070_maximumBeauty.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1146_SnapshotArray
+
+
+#############################################
+# Order-only phony target for 1146_SnapshotArray
+
+build cmake_object_order_depends_target_1146_SnapshotArray: phony || .
+
+build CMakeFiles/1146_SnapshotArray.dir/1146_SnapshotArray.cpp.obj: CXX_COMPILER__1146_SnapshotArray_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/1146_SnapshotArray.cpp || cmake_object_order_depends_target_1146_SnapshotArray
+  DEP_FILE = CMakeFiles\1146_SnapshotArray.dir\1146_SnapshotArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1146_SnapshotArray.dir
+  OBJECT_FILE_DIR = CMakeFiles\1146_SnapshotArray.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1146_SnapshotArray
+
+
+#############################################
+# Link the executable 1146_SnapshotArray.exe
+
+build 1146_SnapshotArray.exe: CXX_EXECUTABLE_LINKER__1146_SnapshotArray_Debug CMakeFiles/1146_SnapshotArray.dir/1146_SnapshotArray.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1146_SnapshotArray.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1146_SnapshotArray.exe
+  TARGET_IMPLIB = lib1146_SnapshotArray.dll.a
+  TARGET_PDB = 1146_SnapshotArray.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -297,6 +363,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 1146_SnapshotArray: phony 1146_SnapshotArray.exe
+
+build 2070_maximumBeauty: phony 2070_maximumBeauty.exe
+
 build 2080_RangeFreqQuery: phony 2080_RangeFreqQuery.exe
 
 build 2563_countFairPairs: phony 2563_countFairPairs.exe
@@ -319,7 +389,7 @@ build 3661_maxWalls: phony 3661_maxWalls.exe
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug
 
-build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe
+build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

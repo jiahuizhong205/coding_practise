@@ -1,0 +1,128 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1146_SnapshotArray::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1146_SnapshotArray-Debug-d6bdbda49df2c8f546e5.json",
+					"name" : "1146_SnapshotArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2070_maximumBeauty::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2070_maximumBeauty-Debug-e177893932fa74141c39.json",
+					"name" : "2070_maximumBeauty",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2080_RangeFreqQuery::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2080_RangeFreqQuery-Debug-46e3a7a58e2d0030e6b5.json",
+					"name" : "2080_RangeFreqQuery",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2563_countFairPairs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2563_countFairPairs-Debug-eac53dace84d38b624db.json",
+					"name" : "2563_countFairPairs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2751_survivedRobotsHealths::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2751_survivedRobotsHealths-Debug-d94bbaee03e574f80a65.json",
+					"name" : "2751_survivedRobotsHealths",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3418_maximumAmount::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3418_maximumAmount-Debug-18decb3543829af05345.json",
+					"name" : "3418_maximumAmount",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3488_solveQueries::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3488_solveQueries-Debug-7c3f10102856d161842b.json",
+					"name" : "3488_solveQueries",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3653_xorAfterQueries::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3653_xorAfterQueries-Debug-f07ec928e03802222d85.json",
+					"name" : "3653_xorAfterQueries",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3661_maxWalls::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3661_maxWalls-Debug-6010e9a6d7680c3726be.json",
+					"name" : "3661_maxWalls",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug",
+		"source" : "D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

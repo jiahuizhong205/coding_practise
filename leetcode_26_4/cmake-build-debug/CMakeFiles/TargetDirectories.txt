@@ -5,5 +5,7 @@ D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/3653_xorAfterQueries.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/3488_solveQueries.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/2563_countFairPairs.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/2070_maximumBeauty.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/1146_SnapshotArray.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
