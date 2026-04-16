@@ -337,6 +337,72 @@ build 1146_SnapshotArray.exe: CXX_EXECUTABLE_LINKER__1146_SnapshotArray_Debug CM
   TARGET_IMPLIB = lib1146_SnapshotArray.dll.a
   TARGET_PDB = 1146_SnapshotArray.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3508_Router
+
+
+#############################################
+# Order-only phony target for 3508_Router
+
+build cmake_object_order_depends_target_3508_Router: phony || .
+
+build CMakeFiles/3508_Router.dir/3508_Router.cpp.obj: CXX_COMPILER__3508_Router_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/3508_Router.cpp || cmake_object_order_depends_target_3508_Router
+  DEP_FILE = CMakeFiles\3508_Router.dir\3508_Router.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3508_Router.dir
+  OBJECT_FILE_DIR = CMakeFiles\3508_Router.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3508_Router
+
+
+#############################################
+# Link the executable 3508_Router.exe
+
+build 3508_Router.exe: CXX_EXECUTABLE_LINKER__3508_Router_Debug CMakeFiles/3508_Router.dir/3508_Router.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3508_Router.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3508_Router.exe
+  TARGET_IMPLIB = lib3508_Router.dll.a
+  TARGET_PDB = 3508_Router.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1283_smallestDivisor
+
+
+#############################################
+# Order-only phony target for 1283_smallestDivisor
+
+build cmake_object_order_depends_target_1283_smallestDivisor: phony || .
+
+build CMakeFiles/1283_smallestDivisor.dir/1283_smallestDivisor.cpp.obj: CXX_COMPILER__1283_smallestDivisor_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/1283_smallestDivisor.cpp || cmake_object_order_depends_target_1283_smallestDivisor
+  DEP_FILE = CMakeFiles\1283_smallestDivisor.dir\1283_smallestDivisor.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1283_smallestDivisor.dir
+  OBJECT_FILE_DIR = CMakeFiles\1283_smallestDivisor.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1283_smallestDivisor
+
+
+#############################################
+# Link the executable 1283_smallestDivisor.exe
+
+build 1283_smallestDivisor.exe: CXX_EXECUTABLE_LINKER__1283_smallestDivisor_Debug CMakeFiles/1283_smallestDivisor.dir/1283_smallestDivisor.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1283_smallestDivisor.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1283_smallestDivisor.exe
+  TARGET_IMPLIB = lib1283_smallestDivisor.dll.a
+  TARGET_PDB = 1283_smallestDivisor.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -365,6 +431,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 1146_SnapshotArray: phony 1146_SnapshotArray.exe
 
+build 1283_smallestDivisor: phony 1283_smallestDivisor.exe
+
 build 2070_maximumBeauty: phony 2070_maximumBeauty.exe
 
 build 2080_RangeFreqQuery: phony 2080_RangeFreqQuery.exe
@@ -376,6 +444,8 @@ build 2751_survivedRobotsHealths: phony 2751_survivedRobotsHealths.exe
 build 3418_maximumAmount: phony 3418_maximumAmount.exe
 
 build 3488_solveQueries: phony 3488_solveQueries.exe
+
+build 3508_Router: phony 3508_Router.exe
 
 build 3653_xorAfterQueries: phony 3653_xorAfterQueries.exe
 
@@ -389,7 +459,7 @@ build 3661_maxWalls: phony 3661_maxWalls.exe
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug
 
-build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe
+build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe 3508_Router.exe 1283_smallestDivisor.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
