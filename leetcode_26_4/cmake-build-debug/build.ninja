@@ -403,6 +403,39 @@ build 1283_smallestDivisor.exe: CXX_EXECUTABLE_LINKER__1283_smallestDivisor_Debu
   TARGET_IMPLIB = lib1283_smallestDivisor.dll.a
   TARGET_PDB = 1283_smallestDivisor.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2187_minimumTime
+
+
+#############################################
+# Order-only phony target for 2187_minimumTime
+
+build cmake_object_order_depends_target_2187_minimumTime: phony || .
+
+build CMakeFiles/2187_minimumTime.dir/2187_minimumTime.cpp.obj: CXX_COMPILER__2187_minimumTime_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/2187_minimumTime.cpp || cmake_object_order_depends_target_2187_minimumTime
+  DEP_FILE = CMakeFiles\2187_minimumTime.dir\2187_minimumTime.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2187_minimumTime.dir
+  OBJECT_FILE_DIR = CMakeFiles\2187_minimumTime.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2187_minimumTime
+
+
+#############################################
+# Link the executable 2187_minimumTime.exe
+
+build 2187_minimumTime.exe: CXX_EXECUTABLE_LINKER__2187_minimumTime_Debug CMakeFiles/2187_minimumTime.dir/2187_minimumTime.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2187_minimumTime.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2187_minimumTime.exe
+  TARGET_IMPLIB = lib2187_minimumTime.dll.a
+  TARGET_PDB = 2187_minimumTime.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -437,6 +470,8 @@ build 2070_maximumBeauty: phony 2070_maximumBeauty.exe
 
 build 2080_RangeFreqQuery: phony 2080_RangeFreqQuery.exe
 
+build 2187_minimumTime: phony 2187_minimumTime.exe
+
 build 2563_countFairPairs: phony 2563_countFairPairs.exe
 
 build 2751_survivedRobotsHealths: phony 2751_survivedRobotsHealths.exe
@@ -459,7 +494,7 @@ build 3661_maxWalls: phony 3661_maxWalls.exe
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug
 
-build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe 3508_Router.exe 1283_smallestDivisor.exe
+build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe 3508_Router.exe 1283_smallestDivisor.exe 2187_minimumTime.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
