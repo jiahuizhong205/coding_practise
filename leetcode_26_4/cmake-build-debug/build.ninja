@@ -436,6 +436,39 @@ build 2187_minimumTime.exe: CXX_EXECUTABLE_LINKER__2187_minimumTime_Debug CMakeF
   TARGET_IMPLIB = lib2187_minimumTime.dll.a
   TARGET_PDB = 2187_minimumTime.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1011_shipWithinDays
+
+
+#############################################
+# Order-only phony target for 1011_shipWithinDays
+
+build cmake_object_order_depends_target_1011_shipWithinDays: phony || .
+
+build CMakeFiles/1011_shipWithinDays.dir/1011_shipWithinDays.cpp.obj: CXX_COMPILER__1011_shipWithinDays_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/1011_shipWithinDays.cpp || cmake_object_order_depends_target_1011_shipWithinDays
+  DEP_FILE = CMakeFiles\1011_shipWithinDays.dir\1011_shipWithinDays.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1011_shipWithinDays.dir
+  OBJECT_FILE_DIR = CMakeFiles\1011_shipWithinDays.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1011_shipWithinDays
+
+
+#############################################
+# Link the executable 1011_shipWithinDays.exe
+
+build 1011_shipWithinDays.exe: CXX_EXECUTABLE_LINKER__1011_shipWithinDays_Debug CMakeFiles/1011_shipWithinDays.dir/1011_shipWithinDays.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1011_shipWithinDays.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1011_shipWithinDays.exe
+  TARGET_IMPLIB = lib1011_shipWithinDays.dll.a
+  TARGET_PDB = 1011_shipWithinDays.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -461,6 +494,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build 1011_shipWithinDays: phony 1011_shipWithinDays.exe
 
 build 1146_SnapshotArray: phony 1146_SnapshotArray.exe
 
@@ -494,7 +529,7 @@ build 3661_maxWalls: phony 3661_maxWalls.exe
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug
 
-build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe 3508_Router.exe 1283_smallestDivisor.exe 2187_minimumTime.exe
+build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe 3508_Router.exe 1283_smallestDivisor.exe 2187_minimumTime.exe 1011_shipWithinDays.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
