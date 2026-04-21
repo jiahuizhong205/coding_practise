@@ -11,5 +11,8 @@ D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/1283_smallestDivisor.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/2187_minimumTime.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/1011_shipWithinDays.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/875_minEatingSpeed.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/3639_minTime.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/2226_maximumCandies.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

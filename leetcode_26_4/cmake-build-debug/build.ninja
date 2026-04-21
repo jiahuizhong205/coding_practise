@@ -469,6 +469,105 @@ build 1011_shipWithinDays.exe: CXX_EXECUTABLE_LINKER__1011_shipWithinDays_Debug 
   TARGET_IMPLIB = lib1011_shipWithinDays.dll.a
   TARGET_PDB = 1011_shipWithinDays.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 875_minEatingSpeed
+
+
+#############################################
+# Order-only phony target for 875_minEatingSpeed
+
+build cmake_object_order_depends_target_875_minEatingSpeed: phony || .
+
+build CMakeFiles/875_minEatingSpeed.dir/875_minEatingSpeed.cpp.obj: CXX_COMPILER__875_minEatingSpeed_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/875_minEatingSpeed.cpp || cmake_object_order_depends_target_875_minEatingSpeed
+  DEP_FILE = CMakeFiles\875_minEatingSpeed.dir\875_minEatingSpeed.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\875_minEatingSpeed.dir
+  OBJECT_FILE_DIR = CMakeFiles\875_minEatingSpeed.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 875_minEatingSpeed
+
+
+#############################################
+# Link the executable 875_minEatingSpeed.exe
+
+build 875_minEatingSpeed.exe: CXX_EXECUTABLE_LINKER__875_minEatingSpeed_Debug CMakeFiles/875_minEatingSpeed.dir/875_minEatingSpeed.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\875_minEatingSpeed.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 875_minEatingSpeed.exe
+  TARGET_IMPLIB = lib875_minEatingSpeed.dll.a
+  TARGET_PDB = 875_minEatingSpeed.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3639_minTime
+
+
+#############################################
+# Order-only phony target for 3639_minTime
+
+build cmake_object_order_depends_target_3639_minTime: phony || .
+
+build CMakeFiles/3639_minTime.dir/3639_minTime.cpp.obj: CXX_COMPILER__3639_minTime_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/3639_minTime.cpp || cmake_object_order_depends_target_3639_minTime
+  DEP_FILE = CMakeFiles\3639_minTime.dir\3639_minTime.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3639_minTime.dir
+  OBJECT_FILE_DIR = CMakeFiles\3639_minTime.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3639_minTime
+
+
+#############################################
+# Link the executable 3639_minTime.exe
+
+build 3639_minTime.exe: CXX_EXECUTABLE_LINKER__3639_minTime_Debug CMakeFiles/3639_minTime.dir/3639_minTime.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3639_minTime.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3639_minTime.exe
+  TARGET_IMPLIB = lib3639_minTime.dll.a
+  TARGET_PDB = 3639_minTime.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2226_maximumCandies
+
+
+#############################################
+# Order-only phony target for 2226_maximumCandies
+
+build cmake_object_order_depends_target_2226_maximumCandies: phony || .
+
+build CMakeFiles/2226_maximumCandies.dir/2226_maximumCandies.cpp.obj: CXX_COMPILER__2226_maximumCandies_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/2226_maximumCandies.cpp || cmake_object_order_depends_target_2226_maximumCandies
+  DEP_FILE = CMakeFiles\2226_maximumCandies.dir\2226_maximumCandies.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2226_maximumCandies.dir
+  OBJECT_FILE_DIR = CMakeFiles\2226_maximumCandies.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2226_maximumCandies
+
+
+#############################################
+# Link the executable 2226_maximumCandies.exe
+
+build 2226_maximumCandies.exe: CXX_EXECUTABLE_LINKER__2226_maximumCandies_Debug CMakeFiles/2226_maximumCandies.dir/2226_maximumCandies.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2226_maximumCandies.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2226_maximumCandies.exe
+  TARGET_IMPLIB = lib2226_maximumCandies.dll.a
+  TARGET_PDB = 2226_maximumCandies.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -507,6 +606,8 @@ build 2080_RangeFreqQuery: phony 2080_RangeFreqQuery.exe
 
 build 2187_minimumTime: phony 2187_minimumTime.exe
 
+build 2226_maximumCandies: phony 2226_maximumCandies.exe
+
 build 2563_countFairPairs: phony 2563_countFairPairs.exe
 
 build 2751_survivedRobotsHealths: phony 2751_survivedRobotsHealths.exe
@@ -517,9 +618,13 @@ build 3488_solveQueries: phony 3488_solveQueries.exe
 
 build 3508_Router: phony 3508_Router.exe
 
+build 3639_minTime: phony 3639_minTime.exe
+
 build 3653_xorAfterQueries: phony 3653_xorAfterQueries.exe
 
 build 3661_maxWalls: phony 3661_maxWalls.exe
+
+build 875_minEatingSpeed: phony 875_minEatingSpeed.exe
 
 # =============================================================================
 # Folder targets.
@@ -529,7 +634,7 @@ build 3661_maxWalls: phony 3661_maxWalls.exe
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug
 
-build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe 3508_Router.exe 1283_smallestDivisor.exe 2187_minimumTime.exe 1011_shipWithinDays.exe
+build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe 3508_Router.exe 1283_smallestDivisor.exe 2187_minimumTime.exe 1011_shipWithinDays.exe 875_minEatingSpeed.exe 3639_minTime.exe 2226_maximumCandies.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
