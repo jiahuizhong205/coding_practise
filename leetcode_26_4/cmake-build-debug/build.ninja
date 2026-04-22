@@ -568,6 +568,39 @@ build 2226_maximumCandies.exe: CXX_EXECUTABLE_LINKER__2226_maximumCandies_Debug 
   TARGET_IMPLIB = lib2226_maximumCandies.dll.a
   TARGET_PDB = 2226_maximumCandies.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2982_maximumLength
+
+
+#############################################
+# Order-only phony target for 2982_maximumLength
+
+build cmake_object_order_depends_target_2982_maximumLength: phony || .
+
+build CMakeFiles/2982_maximumLength.dir/2982_maximumLength.cpp.obj: CXX_COMPILER__2982_maximumLength_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/2982_maximumLength.cpp || cmake_object_order_depends_target_2982_maximumLength
+  DEP_FILE = CMakeFiles\2982_maximumLength.dir\2982_maximumLength.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2982_maximumLength.dir
+  OBJECT_FILE_DIR = CMakeFiles\2982_maximumLength.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2982_maximumLength
+
+
+#############################################
+# Link the executable 2982_maximumLength.exe
+
+build 2982_maximumLength.exe: CXX_EXECUTABLE_LINKER__2982_maximumLength_Debug CMakeFiles/2982_maximumLength.dir/2982_maximumLength.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2982_maximumLength.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2982_maximumLength.exe
+  TARGET_IMPLIB = lib2982_maximumLength.dll.a
+  TARGET_PDB = 2982_maximumLength.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -612,6 +645,8 @@ build 2563_countFairPairs: phony 2563_countFairPairs.exe
 
 build 2751_survivedRobotsHealths: phony 2751_survivedRobotsHealths.exe
 
+build 2982_maximumLength: phony 2982_maximumLength.exe
+
 build 3418_maximumAmount: phony 3418_maximumAmount.exe
 
 build 3488_solveQueries: phony 3488_solveQueries.exe
@@ -634,7 +669,7 @@ build 875_minEatingSpeed: phony 875_minEatingSpeed.exe
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug
 
-build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe 3508_Router.exe 1283_smallestDivisor.exe 2187_minimumTime.exe 1011_shipWithinDays.exe 875_minEatingSpeed.exe 3639_minTime.exe 2226_maximumCandies.exe
+build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe 3508_Router.exe 1283_smallestDivisor.exe 2187_minimumTime.exe 1011_shipWithinDays.exe 875_minEatingSpeed.exe 3639_minTime.exe 2226_maximumCandies.exe 2982_maximumLength.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
