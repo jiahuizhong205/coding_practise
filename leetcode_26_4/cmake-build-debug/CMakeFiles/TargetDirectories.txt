@@ -15,5 +15,9 @@ D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/3639_minTime.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/2226_maximumCandies.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/2982_maximumLength.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/1512_numIdenticalPairs.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/2441_findMaxK.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/121_maxProfit.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/3623_countTrapezoids.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

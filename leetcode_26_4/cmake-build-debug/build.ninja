@@ -601,6 +601,138 @@ build 2982_maximumLength.exe: CXX_EXECUTABLE_LINKER__2982_maximumLength_Debug CM
   TARGET_IMPLIB = lib2982_maximumLength.dll.a
   TARGET_PDB = 2982_maximumLength.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1512_numIdenticalPairs
+
+
+#############################################
+# Order-only phony target for 1512_numIdenticalPairs
+
+build cmake_object_order_depends_target_1512_numIdenticalPairs: phony || .
+
+build CMakeFiles/1512_numIdenticalPairs.dir/1512_numIdenticalPairs.cpp.obj: CXX_COMPILER__1512_numIdenticalPairs_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/1512_numIdenticalPairs.cpp || cmake_object_order_depends_target_1512_numIdenticalPairs
+  DEP_FILE = CMakeFiles\1512_numIdenticalPairs.dir\1512_numIdenticalPairs.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1512_numIdenticalPairs.dir
+  OBJECT_FILE_DIR = CMakeFiles\1512_numIdenticalPairs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1512_numIdenticalPairs
+
+
+#############################################
+# Link the executable 1512_numIdenticalPairs.exe
+
+build 1512_numIdenticalPairs.exe: CXX_EXECUTABLE_LINKER__1512_numIdenticalPairs_Debug CMakeFiles/1512_numIdenticalPairs.dir/1512_numIdenticalPairs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1512_numIdenticalPairs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1512_numIdenticalPairs.exe
+  TARGET_IMPLIB = lib1512_numIdenticalPairs.dll.a
+  TARGET_PDB = 1512_numIdenticalPairs.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2441_findMaxK
+
+
+#############################################
+# Order-only phony target for 2441_findMaxK
+
+build cmake_object_order_depends_target_2441_findMaxK: phony || .
+
+build CMakeFiles/2441_findMaxK.dir/2441_findMaxK.cpp.obj: CXX_COMPILER__2441_findMaxK_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/2441_findMaxK.cpp || cmake_object_order_depends_target_2441_findMaxK
+  DEP_FILE = CMakeFiles\2441_findMaxK.dir\2441_findMaxK.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2441_findMaxK.dir
+  OBJECT_FILE_DIR = CMakeFiles\2441_findMaxK.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2441_findMaxK
+
+
+#############################################
+# Link the executable 2441_findMaxK.exe
+
+build 2441_findMaxK.exe: CXX_EXECUTABLE_LINKER__2441_findMaxK_Debug CMakeFiles/2441_findMaxK.dir/2441_findMaxK.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2441_findMaxK.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2441_findMaxK.exe
+  TARGET_IMPLIB = lib2441_findMaxK.dll.a
+  TARGET_PDB = 2441_findMaxK.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 121_maxProfit
+
+
+#############################################
+# Order-only phony target for 121_maxProfit
+
+build cmake_object_order_depends_target_121_maxProfit: phony || .
+
+build CMakeFiles/121_maxProfit.dir/121_maxProfit.cpp.obj: CXX_COMPILER__121_maxProfit_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/121_maxProfit.cpp || cmake_object_order_depends_target_121_maxProfit
+  DEP_FILE = CMakeFiles\121_maxProfit.dir\121_maxProfit.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\121_maxProfit.dir
+  OBJECT_FILE_DIR = CMakeFiles\121_maxProfit.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 121_maxProfit
+
+
+#############################################
+# Link the executable 121_maxProfit.exe
+
+build 121_maxProfit.exe: CXX_EXECUTABLE_LINKER__121_maxProfit_Debug CMakeFiles/121_maxProfit.dir/121_maxProfit.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\121_maxProfit.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 121_maxProfit.exe
+  TARGET_IMPLIB = lib121_maxProfit.dll.a
+  TARGET_PDB = 121_maxProfit.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3623_countTrapezoids
+
+
+#############################################
+# Order-only phony target for 3623_countTrapezoids
+
+build cmake_object_order_depends_target_3623_countTrapezoids: phony || .
+
+build CMakeFiles/3623_countTrapezoids.dir/3623_countTrapezoids.cpp.obj: CXX_COMPILER__3623_countTrapezoids_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/3623_countTrapezoids.cpp || cmake_object_order_depends_target_3623_countTrapezoids
+  DEP_FILE = CMakeFiles\3623_countTrapezoids.dir\3623_countTrapezoids.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3623_countTrapezoids.dir
+  OBJECT_FILE_DIR = CMakeFiles\3623_countTrapezoids.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3623_countTrapezoids
+
+
+#############################################
+# Link the executable 3623_countTrapezoids.exe
+
+build 3623_countTrapezoids.exe: CXX_EXECUTABLE_LINKER__3623_countTrapezoids_Debug CMakeFiles/3623_countTrapezoids.dir/3623_countTrapezoids.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3623_countTrapezoids.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3623_countTrapezoids.exe
+  TARGET_IMPLIB = lib3623_countTrapezoids.dll.a
+  TARGET_PDB = 3623_countTrapezoids.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -631,7 +763,11 @@ build 1011_shipWithinDays: phony 1011_shipWithinDays.exe
 
 build 1146_SnapshotArray: phony 1146_SnapshotArray.exe
 
+build 121_maxProfit: phony 121_maxProfit.exe
+
 build 1283_smallestDivisor: phony 1283_smallestDivisor.exe
+
+build 1512_numIdenticalPairs: phony 1512_numIdenticalPairs.exe
 
 build 2070_maximumBeauty: phony 2070_maximumBeauty.exe
 
@@ -640,6 +776,8 @@ build 2080_RangeFreqQuery: phony 2080_RangeFreqQuery.exe
 build 2187_minimumTime: phony 2187_minimumTime.exe
 
 build 2226_maximumCandies: phony 2226_maximumCandies.exe
+
+build 2441_findMaxK: phony 2441_findMaxK.exe
 
 build 2563_countFairPairs: phony 2563_countFairPairs.exe
 
@@ -652,6 +790,8 @@ build 3418_maximumAmount: phony 3418_maximumAmount.exe
 build 3488_solveQueries: phony 3488_solveQueries.exe
 
 build 3508_Router: phony 3508_Router.exe
+
+build 3623_countTrapezoids: phony 3623_countTrapezoids.exe
 
 build 3639_minTime: phony 3639_minTime.exe
 
@@ -669,7 +809,7 @@ build 875_minEatingSpeed: phony 875_minEatingSpeed.exe
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug
 
-build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe 3508_Router.exe 1283_smallestDivisor.exe 2187_minimumTime.exe 1011_shipWithinDays.exe 875_minEatingSpeed.exe 3639_minTime.exe 2226_maximumCandies.exe 2982_maximumLength.exe
+build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe 3508_Router.exe 1283_smallestDivisor.exe 2187_minimumTime.exe 1011_shipWithinDays.exe 875_minEatingSpeed.exe 3639_minTime.exe 2226_maximumCandies.exe 2982_maximumLength.exe 1512_numIdenticalPairs.exe 2441_findMaxK.exe 121_maxProfit.exe 3623_countTrapezoids.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
