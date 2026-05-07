@@ -19,5 +19,9 @@ D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/2441_findMaxK.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/121_maxProfit.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/3623_countTrapezoids.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/2364_countBadPairs.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/3371_getLargestOutlier.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/3805_countPairs.dir
+D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/3761_minMirrorPairDistance.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

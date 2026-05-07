@@ -1,0 +1,2 @@
+add_executable(1010_numPairsDivisibleBy60 1010_numPairsDivisibleBy60.cpp)
+add_executable(49_groupAnagrams 49_groupAnagrams.cpp)

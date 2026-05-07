@@ -733,6 +733,138 @@ build 3623_countTrapezoids.exe: CXX_EXECUTABLE_LINKER__3623_countTrapezoids_Debu
   TARGET_IMPLIB = lib3623_countTrapezoids.dll.a
   TARGET_PDB = 3623_countTrapezoids.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2364_countBadPairs
+
+
+#############################################
+# Order-only phony target for 2364_countBadPairs
+
+build cmake_object_order_depends_target_2364_countBadPairs: phony || .
+
+build CMakeFiles/2364_countBadPairs.dir/2364_countBadPairs.cpp.obj: CXX_COMPILER__2364_countBadPairs_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/2364_countBadPairs.cpp || cmake_object_order_depends_target_2364_countBadPairs
+  DEP_FILE = CMakeFiles\2364_countBadPairs.dir\2364_countBadPairs.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2364_countBadPairs.dir
+  OBJECT_FILE_DIR = CMakeFiles\2364_countBadPairs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2364_countBadPairs
+
+
+#############################################
+# Link the executable 2364_countBadPairs.exe
+
+build 2364_countBadPairs.exe: CXX_EXECUTABLE_LINKER__2364_countBadPairs_Debug CMakeFiles/2364_countBadPairs.dir/2364_countBadPairs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2364_countBadPairs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2364_countBadPairs.exe
+  TARGET_IMPLIB = lib2364_countBadPairs.dll.a
+  TARGET_PDB = 2364_countBadPairs.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3371_getLargestOutlier
+
+
+#############################################
+# Order-only phony target for 3371_getLargestOutlier
+
+build cmake_object_order_depends_target_3371_getLargestOutlier: phony || .
+
+build CMakeFiles/3371_getLargestOutlier.dir/3371_getLargestOutlier.cpp.obj: CXX_COMPILER__3371_getLargestOutlier_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/3371_getLargestOutlier.cpp || cmake_object_order_depends_target_3371_getLargestOutlier
+  DEP_FILE = CMakeFiles\3371_getLargestOutlier.dir\3371_getLargestOutlier.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3371_getLargestOutlier.dir
+  OBJECT_FILE_DIR = CMakeFiles\3371_getLargestOutlier.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3371_getLargestOutlier
+
+
+#############################################
+# Link the executable 3371_getLargestOutlier.exe
+
+build 3371_getLargestOutlier.exe: CXX_EXECUTABLE_LINKER__3371_getLargestOutlier_Debug CMakeFiles/3371_getLargestOutlier.dir/3371_getLargestOutlier.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3371_getLargestOutlier.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3371_getLargestOutlier.exe
+  TARGET_IMPLIB = lib3371_getLargestOutlier.dll.a
+  TARGET_PDB = 3371_getLargestOutlier.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3805_countPairs
+
+
+#############################################
+# Order-only phony target for 3805_countPairs
+
+build cmake_object_order_depends_target_3805_countPairs: phony || .
+
+build CMakeFiles/3805_countPairs.dir/3805_countPairs.cpp.obj: CXX_COMPILER__3805_countPairs_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/3805_countPairs.cpp || cmake_object_order_depends_target_3805_countPairs
+  DEP_FILE = CMakeFiles\3805_countPairs.dir\3805_countPairs.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3805_countPairs.dir
+  OBJECT_FILE_DIR = CMakeFiles\3805_countPairs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3805_countPairs
+
+
+#############################################
+# Link the executable 3805_countPairs.exe
+
+build 3805_countPairs.exe: CXX_EXECUTABLE_LINKER__3805_countPairs_Debug CMakeFiles/3805_countPairs.dir/3805_countPairs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3805_countPairs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3805_countPairs.exe
+  TARGET_IMPLIB = lib3805_countPairs.dll.a
+  TARGET_PDB = 3805_countPairs.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3761_minMirrorPairDistance
+
+
+#############################################
+# Order-only phony target for 3761_minMirrorPairDistance
+
+build cmake_object_order_depends_target_3761_minMirrorPairDistance: phony || .
+
+build CMakeFiles/3761_minMirrorPairDistance.dir/3761_minMirrorPairDistance.cpp.obj: CXX_COMPILER__3761_minMirrorPairDistance_unscanned_Debug D$:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/3761_minMirrorPairDistance.cpp || cmake_object_order_depends_target_3761_minMirrorPairDistance
+  DEP_FILE = CMakeFiles\3761_minMirrorPairDistance.dir\3761_minMirrorPairDistance.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3761_minMirrorPairDistance.dir
+  OBJECT_FILE_DIR = CMakeFiles\3761_minMirrorPairDistance.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3761_minMirrorPairDistance
+
+
+#############################################
+# Link the executable 3761_minMirrorPairDistance.exe
+
+build 3761_minMirrorPairDistance.exe: CXX_EXECUTABLE_LINKER__3761_minMirrorPairDistance_Debug CMakeFiles/3761_minMirrorPairDistance.dir/3761_minMirrorPairDistance.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3761_minMirrorPairDistance.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3761_minMirrorPairDistance.exe
+  TARGET_IMPLIB = lib3761_minMirrorPairDistance.dll.a
+  TARGET_PDB = 3761_minMirrorPairDistance.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -777,6 +909,8 @@ build 2187_minimumTime: phony 2187_minimumTime.exe
 
 build 2226_maximumCandies: phony 2226_maximumCandies.exe
 
+build 2364_countBadPairs: phony 2364_countBadPairs.exe
+
 build 2441_findMaxK: phony 2441_findMaxK.exe
 
 build 2563_countFairPairs: phony 2563_countFairPairs.exe
@@ -784,6 +918,8 @@ build 2563_countFairPairs: phony 2563_countFairPairs.exe
 build 2751_survivedRobotsHealths: phony 2751_survivedRobotsHealths.exe
 
 build 2982_maximumLength: phony 2982_maximumLength.exe
+
+build 3371_getLargestOutlier: phony 3371_getLargestOutlier.exe
 
 build 3418_maximumAmount: phony 3418_maximumAmount.exe
 
@@ -799,6 +935,10 @@ build 3653_xorAfterQueries: phony 3653_xorAfterQueries.exe
 
 build 3661_maxWalls: phony 3661_maxWalls.exe
 
+build 3761_minMirrorPairDistance: phony 3761_minMirrorPairDistance.exe
+
+build 3805_countPairs: phony 3805_countPairs.exe
+
 build 875_minEatingSpeed: phony 875_minEatingSpeed.exe
 
 # =============================================================================
@@ -809,7 +949,7 @@ build 875_minEatingSpeed: phony 875_minEatingSpeed.exe
 #############################################
 # Folder: D:/cpl/leetcode_luogu_coding_practise/leetcode_26_4/cmake-build-debug
 
-build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe 3508_Router.exe 1283_smallestDivisor.exe 2187_minimumTime.exe 1011_shipWithinDays.exe 875_minEatingSpeed.exe 3639_minTime.exe 2226_maximumCandies.exe 2982_maximumLength.exe 1512_numIdenticalPairs.exe 2441_findMaxK.exe 121_maxProfit.exe 3623_countTrapezoids.exe
+build all: phony 2751_survivedRobotsHealths.exe 3418_maximumAmount.exe 3661_maxWalls.exe 2080_RangeFreqQuery.exe 3653_xorAfterQueries.exe 3488_solveQueries.exe 2563_countFairPairs.exe 2070_maximumBeauty.exe 1146_SnapshotArray.exe 3508_Router.exe 1283_smallestDivisor.exe 2187_minimumTime.exe 1011_shipWithinDays.exe 875_minEatingSpeed.exe 3639_minTime.exe 2226_maximumCandies.exe 2982_maximumLength.exe 1512_numIdenticalPairs.exe 2441_findMaxK.exe 121_maxProfit.exe 3623_countTrapezoids.exe 2364_countBadPairs.exe 3371_getLargestOutlier.exe 3805_countPairs.exe 3761_minMirrorPairDistance.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
